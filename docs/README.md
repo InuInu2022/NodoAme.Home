@@ -12,6 +12,9 @@ CeVIO AIソング（可不ちゃんなど）をしゃべってる風に歌わせ
 - [YouTube](https://youtu.be/lHshJSPfd-M)
 - [niconico](https://nico.ms/sm39928066)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lHshJSPfd-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm39928066" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm39928066">可不ちゃんにしゃべってもらえるソフトつくってみた【NodoAme】#第1回CeVIOクリエイト祭</a></iframe>
+
 ## DL
 
 - [公式サイト](https://inuinu2022.github.io/NodoAme.Home/)
