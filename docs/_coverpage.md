@@ -1,4 +1,4 @@
-![logo](_media/icon.png ':size=50x50')
+![logo](_media/icon.png ':size=100x100')
 
 # NodoAme <small>v0.1.0</small>
 
