@@ -7,7 +7,7 @@
 CeVIO AIソング（可不ちゃんなど）をしゃべってる風に歌わせるための補助ツールです。
 おまけ機能で歌詞の音素表記変換機能もあります。
 
-## 紹介動画 :id=movies
+## __el:video-alt__ 紹介動画 :id=movies
 
 - [YouTube](https://youtu.be/lHshJSPfd-M)
 - [niconico](https://nico.ms/sm39928066)
@@ -80,13 +80,13 @@ CeVIOで使われる**音素表記**に変換します。
 ### カレーうどんをすする :id=curry_udon
 
 > [!NOTE]
-> **SUSURU～!**
+> **__maki:restaurant-noodle__ SUSURU～!**
 
 カレーうどんやカレーそば、カレーラーメンをすすっているような声を出せる、隠し機能です。
 
 オプションの中に隠されているボタンを押すと、現在の選択されたソングのキャラ向けに出力します（可不ちゃん以外もOK）。
 
-## 大事なこと :id=important
+## __ic:baseline-notification-important__ 大事なこと :id=important
 
 > [!WARNING]
 > とっても大事なことなので、読んでね！
@@ -120,7 +120,7 @@ CeVIOで使われる**音素表記**に変換します。
 - CeVIO CSトークエディター＆ボイス
 - VOICEVOX
 
-## インストール :id=how_to_install
+## __ic:twotone-install-desktop__ インストール :id=how_to_install
 
 1. [ダウンロードする](#DL)
 2. ダウンロードした`NodoAme-v【バージョン名】.zip`ファイルを展開する
@@ -234,7 +234,7 @@ VOICEVOXはキャラの選択とスタイルの変更だけ対応しています
 現在は保存する方法が現在ありません。
 プロジェクトファイル形式をかんがえてます！
 
-## 調声のコツ :id=tips_for_voice_tune
+## __ic:baseline-tips-and-updates__ 調声のコツ :id=tips_for_voice_tune
 
 > [!TIP]
 > 出力したファイルはCeVIOのソングエディタ上で少し手をくわえるともっと自然になります。
@@ -260,7 +260,7 @@ VOLで削ってください。
 
 この辺はソングボイスの得意な音域によって変わります。
 
-## 出力した音声のTIPS :id=tips_for_output_files
+## __ic:outline-tips-and-updates__ 出力した音声のTIPS :id=tips_for_output_files
 
 > [!TIP]
 > 出力された音声はソング用のため、トーク作品で利用するにはひと工夫必要です
@@ -284,7 +284,7 @@ VOLで削ってください。
 DAWで加工してます。
 iZotopeのRXとNectar (dialogプリセット)をかけてます。
 
-## やりたいこと :id=i_want_to_do
+## __icons8:todo-list__ やりたいこと :id=i_want_to_do
 
 - 入力
   - [ ] CeVIOトークの感情合成対応
@@ -308,7 +308,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] オプションの設定保存に対応
   - [ ] セリフやパラメータの保存(プロジェクトファイル)に対応
 
-## よくある質問
+## __wpf:faq__ よくある質問 :id=faq
 
 ### ❔CeVIO Creative Studioのソングはしゃべらせられますか？ :id=cevio_cs_song_support
 
@@ -469,7 +469,7 @@ BPMが150固定とか、あとからの手直しにはあまり向いてない�
 
 CeVIO Creative Studioなら[CevioTalkSync](https://www.nicovideo.jp/watch/sm37419010)というソフトがあります！
 
-## ライセンス :id=licenses
+## __tabler:license__ ライセンス :id=licenses
 
 ```txt
 The MIT License
@@ -484,12 +484,12 @@ MIT Licenseです。
 
 全文や使用ライブラリなどのライセンスはNodoAmeのインストールされたとこの `Licenses` フォルダー以下をご覧くださーい！
 
-## きろく :id=history
+## __fa-solid:history__ きろく :id=history
 
 - ver. 0.1.1 : 出力時にアプリがおちちゃう不具合修正 [#2](https://github.com/InuInu2022/NodoAme.Home/issues/2)
 - ver. 0.1.0 : MATSURIに合わせてプロトタイプ版リリース
 
-## スペシャルサンクス :id=speacialthanks
+## __ant-design:star-filled__ スペシャルサンクス :id=speacialthanks
 
 - たらそば さん [@tarasoba9672](https://twitter.com/tarasoba9672)
 
