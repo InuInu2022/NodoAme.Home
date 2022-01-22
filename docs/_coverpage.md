@@ -1,6 +1,6 @@
 ![logo](_media/icon.png ':size=100x100')
 
-# NodoAme <small>v0.1.0</small>
+# NodoAme <small>v0.1.1</small>
 
 > CeVIO AIソングをしゃべらせる！
 

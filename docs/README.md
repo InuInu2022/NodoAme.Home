@@ -15,6 +15,7 @@ CeVIO AIソング（可不ちゃんなど）をしゃべってる風に歌わせ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lHshJSPfd-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm39928066" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm39928066">可不ちゃんにしゃべってもらえるソフトつくってみた【NodoAme】#第1回CeVIOクリエイト祭</a></iframe>
 
+
 ## DL
 
 - [公式サイト](https://inuinu2022.github.io/NodoAme.Home/)
@@ -64,6 +65,9 @@ CeVIOトーク音源を持っていなくとも、内蔵の標準トーク音源
   - IA
   - IA English C (Natural / Powerful)
   - OИE
+
+> [!NOTE]
+> 楽譜データ、といってますが、実は楽譜（ノート）情報はあまりつかっていません。開いてみるとわかります。
 
 ### 文章の音素表記を表示する
 
@@ -453,6 +457,7 @@ MIT Licenseです。
 
 ## きろく
 
+- ver. 0.1.1 : 出力時にアプリがおちちゃう不具合修正 [#2](https://github.com/InuInu2022/NodoAme.Home/issues/2)
 - ver. 0.1.0 : MATSURIに合わせてプロトタイプ版リリース
 
 ## スペシャルサンクス
