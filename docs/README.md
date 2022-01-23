@@ -66,10 +66,13 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English（英語音源なので発音が変です）
   - OИE
 
-> [!ATTENTION]
-※CeVIO Creative Studio向けソング音源は出力できますが、発音がおかしいです。現時点では未対応です。
+> [!NOTE]
+> CeVIO AI 東北ずん子、東北イタコ、星界（SEKAI）も対応予定です。
 
-- CeViO Creative Studio 7
+> [!ATTENTION]
+> ※CeVIO Creative Studio向けソング音源は出力できますが、発音がおかしいです。現時点では未対応です。
+
+- CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
   - Color Voice Series
