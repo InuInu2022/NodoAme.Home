@@ -1,0 +1,18 @@
+a.download{
+	display:block;
+	background-color:var(--theme-color,#0074d9);;
+	color:#ffffff;
+	width:75%;
+	margin:auto;
+	padding: 1em;
+	text-align: center;
+	font-size: x-large;
+	border-radius: 50px;
+	text-decoration: none;
+}
+
+a:hover.download{
+	color: inherit;
+    opacity: .8;
+	color:#ffffff;
+}

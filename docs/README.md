@@ -17,8 +17,9 @@
 - __fa-brands:youtube__ [YouTube](https://youtu.be/lHshJSPfd-M)
 - __simple-icons:niconico__ [niconico](https://nico.ms/sm39928066)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lHshJSPfd-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm39928066" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm39928066">可不ちゃんにしゃべってもらえるソフトつくってみた【NodoAme】#第1回CeVIOクリエイト祭</a></iframe>
+[YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M ':include :type=iframe width=560px height=315px allowfullscreen')
+
+[可不ちゃんにしゃべってもらえるソフトつくってみた【NodoAme】#第1回CeVIOクリエイト祭](https://ext.nicovideo.jp/thumb/sm39928066 ':include :type=iframe width=560px height=200px scrolling=no frameborder=0 style="border:solid 1px #ccc;"')
 
 
 ## __bx:bxs-cloud-download__ DL :id=dl
@@ -28,9 +29,10 @@
 > - バージョン：${tag_name}
 >   - ${body}
 
-- <a href="${assets[0].browser_download_url}">**<span class="iconify-inline" data-icon="bx:bxs-cloud-download"></span> 最新版 ${tag_name} ダウンロード**</a>
-  - [過去のバージョン一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases/latest)
-  - ※予備 [bowlroll](https://bowlroll.net/file/269946) pass:カレーうどん
+<a href="${assets[0].browser_download_url}" class="download"><span class="iconify-inline" data-icon="bx:bxs-cloud-download"></span> 最新版 ${tag_name}<br> ダウンロード</a>
+
+- [過去のバージョン一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases/latest)
+- ※予備 [bowlroll](https://bowlroll.net/file/269946) pass:カレーうどん
 
 > [!NOTE]
 > ニコニコ動画などでこのツールを使った動画などを公開する場合は、以下のニコニコモンズをコンテンツツリーに登録して下さい！（義務ではありません）
@@ -218,6 +220,8 @@ CeVIOトークには外部連携インターフェイスが用意されていま
 
 喋ってる風の楽譜データはCeVIO CSでも読めますが、ちゃんと発音できません。音声合成エンジンの違いが理由かも？
 TMGの青線を手で調整すると少しはマシになるんですが…。
+
+[YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M?t=526&end=546 ':include :type=iframe width=560px height=315px allowfullscreen')
 
 昔ながらのトークロイド的な方法で出力するように将来的に改良するかもしれません（その時は変換すると他のボーカルシンセサイザーでも使えるようになると思います）。
 
