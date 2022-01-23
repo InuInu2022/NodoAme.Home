@@ -226,6 +226,10 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 > [!TIP]
 > NodoAmeをつかって動画をつくってみよう！
 > キャラクターがセリフに合わせて口パクしてくれる動画はカンタンに作れます！
+> 
+> ↓みたいなゲーム実況動画とかが作れます！
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z06983dVjng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### 動作制作ソフト
 
