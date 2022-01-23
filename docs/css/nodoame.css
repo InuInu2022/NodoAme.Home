@@ -17,6 +17,13 @@ a:hover.download{
 	color:#ffffff;
 }
 
+a[target=_blank]:after {
+	margin: 0 3px;
+	font-family: FontAwesome;
+	vertical-align: middle;
+	content: '\f08e';
+  }
+
 .icon{
 	width:20px !important;
 	height:20px !important;

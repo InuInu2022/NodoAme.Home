@@ -103,6 +103,11 @@ CeVIOで使われる**音素表記**に変換します。
 
 オプションの中に隠されているボタンを押すと、現在の選択されたソングのキャラ向けに出力します（可不ちゃん以外もOK）。
 
+元ネタ：
+
+[可不がカレーうどん食べるだけ](https://ext.nicovideo.jp/thumb/sm39669643 ':include :type=iframe width=560px height=200px scrolling=no frameborder=0 style="border:solid 1px #ccc;"')
+
+
 ## __ic:baseline-notification-important__ 大事なこと :id=important
 
 > [!WARNING]
@@ -160,7 +165,10 @@ CeVIOで使われる**音素表記**に変換します。
 
 ## __ant-design:tool-filled__ つかいかた :id=how_to_use
 
-くわしくは[紹介動画](#紹介動画)をみてね！
+NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね！
+
+> [!NOTE|label:まずはこっち！|iconVisibility:hidden]
+> __bi:arrow-up-circle-fill__ [紹介動画](#movies)
 
 ### ソングボイスにしゃべらせる :id=how_to_do_song_voice_speaking
 
@@ -199,6 +207,39 @@ CeVIOで使われる**音素表記**に変換します。
   - 「が」を変換する：「が」を`[g][n,g]`の2パターンに変換します
   - 無声母音そのまま/小文字化/削除：最初は大文字で表示される無声母音を変換します
 
+## __ic:baseline-school__ 動画を作るのに便利な知識
+
+> [!TIP]
+> NodoAmeをつかって動画をつくってみよう！
+> キャラクターがセリフに合わせて口パクしてくれる動画はカンタンに作れます！
+
+### 動作制作ソフト
+
+> [!NOTE]
+> 動画をつくるなら、キャラクターの立ち絵や字幕生成が自動でできるソフトがオススメです。
+
+- [AviUtl + 拡張編集プラグイン](http://spring-fragrance.mints.ne.jp/aviutl/) + [PSDToolKit](https://oov.github.io/aviutl_psdtoolkit/index.html) ※無料
+- [YMM4(ゆっくりムービーメーカー4)](https://manjubox.net/ymm4/) ※無料
+- [レコッテスタジオ](https://www.ah-soft.com/rs/) ※有料
+
+> [!NOTE]
+> いぬいぬのオススメはYMM4です！
+> 
+> NodoAmeを使うときは「 [カスタムボイス機能](https://manjubox.net/ymm4/faq/%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A%E3%83%9C%E3%82%A4%E3%82%B9/%E5%A4%96%E9%83%A8%E3%81%AE%E9%9F%B3%E5%A3%B0%E5%90%88%E6%88%90%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84/)」を使います！
+
+[YMM4+CeVIO解説](https://www.youtube.com/embed/TlqFEtxLsPE ':include :type=iframe width=560px height=315px allowfullscreen')
+
+### 立ち絵の探し方
+
+[PSDTool](https://oov.github.io/psdtool/)というサイトで使えるようにしたpsd形式の立ち絵が多いです！色々なパーツを組み合わせて表情や口パクなどの演技が簡単にできるようになります！
+
+「キャラクター名 立ち絵」で検索すると見つかります！規約をよく読んで使いましょう！
+
+例： [ニコニコ静画で「可不 立ち絵」で検索](https://seiga.nicovideo.jp/search/%E5%8F%AF%E4%B8%8D%20%E7%AB%8B%E3%81%A1%E7%B5%B5?target=illust&track=seiga_illust_keyword)
+
+> [!NOTE]
+> YMM4で使うためには少し素材の書き出し方に工夫が必要です。
+> [立ち絵機能](https://manjubox.net/ymm4/faq/%E7%AB%8B%E3%81%A1%E7%B5%B5%E6%A9%9F%E8%83%BD/)
 
 ## ⚠プロトタイプ版の制限 :id=not_support_on_prototype
 
