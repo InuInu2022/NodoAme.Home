@@ -221,7 +221,7 @@ CeVIOトークには外部連携インターフェイスが用意されていま
 喋ってる風の楽譜データはCeVIO CSでも読めますが、ちゃんと発音できません。音声合成エンジンの違いが理由かも？
 TMGの青線を手で調整すると少しはマシになるんですが…。
 
-[YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M?t=526&end=546 ':include :type=iframe width=560px height=315px allowfullscreen')
+[YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M?start=526&end=546 ':include :type=iframe width=560px height=315px allowfullscreen')
 
 昔ながらのトークロイド的な方法で出力するように将来的に改良するかもしれません（その時は変換すると他のボーカルシンセサイザーでも使えるようになると思います）。
 
@@ -339,6 +339,9 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
 
 NodeAmeはCSのソングボイス向けに出力できますが、
 今の仕組みだとちゃんとしゃべってるように聞こえません…
+
+[YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M?start=526&end=546 ':include :type=iframe width=560px height=315px allowfullscreen')
+
 リクエストがあれば将来的なアップデートで対応します！
 
 ### ❔コメント読み上げとかに使えますか？ :id=can_i_use_comment_reading
