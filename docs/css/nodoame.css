@@ -16,3 +16,8 @@ a:hover.download{
     opacity: .8;
 	color:#ffffff;
 }
+
+.icon{
+	width:20px !important;
+	height:20px !important;
+}
