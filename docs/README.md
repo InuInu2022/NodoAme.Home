@@ -1,16 +1,21 @@
 # NodeAme（ノドアメ） :id=nodoame
 
+> [!Note|iconVisibility:hidden]
+> 最新版：${tag_name}
+
 しゃべるCeVIOソング補助ツール [#喋らせてみた](https://www.google.com/search?q=%23%E5%96%8B%E3%82%89%E3%81%9B%E3%81%A6%E3%81%BF%E3%81%9F)
 
-## これはなに？ :id=whats_nodoame
+## __charm:candy__ これはなに？ :id=whats_nodoame
 
-CeVIO AIソング（可不ちゃんなど）をしゃべってる風に歌わせるための補助ツールです。
+[CeVIO AIソング](https://cevio.jp/products_cevio_ai/)（可不ちゃんなど）をしゃべってる風に歌わせるための補助ツールです。
 おまけ機能で歌詞の音素表記変換機能もあります。
+
+![ss](_media/screenshot/main.png ':size=400')
 
 ## __el:video-alt__ 紹介動画 :id=movies
 
-- [YouTube](https://youtu.be/lHshJSPfd-M)
-- [niconico](https://nico.ms/sm39928066)
+- __fa-brands:youtube__ [YouTube](https://youtu.be/lHshJSPfd-M)
+- __simple-icons:niconico__ [niconico](https://nico.ms/sm39928066)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lHshJSPfd-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="312" height="176" src="https://ext.nicovideo.jp/thumb/sm39928066" scrolling="no" style="border:solid 1px #ccc;" frameborder="0"><a href="https://www.nicovideo.jp/watch/sm39928066">可不ちゃんにしゃべってもらえるソフトつくってみた【NodoAme】#第1回CeVIOクリエイト祭</a></iframe>
@@ -18,17 +23,21 @@ CeVIO AIソング（可不ちゃんなど）をしゃべってる風に歌わせ
 
 ## __bx:bxs-cloud-download__ DL :id=dl
 
-- [公式サイト](https://inuinu2022.github.io/NodoAme.Home/)
-  - [最新版はこちら](https://github.com/InuInu2022/NodoAme.Home/releases/latest)
-- [bowlroll](https://bowlroll.net/file/269946) ※予備
-  - pass:カレーうどん
+> [!NOTE|label:最新版情報|iconVisibility:hidden]
+>
+> - バージョン：${tag_name}
+>   - ${body}
+
+- <a href="${assets[0].browser_download_url}">**<span class="iconify-inline" data-icon="bx:bxs-cloud-download"></span> 最新版 ${tag_name} ダウンロード**</a>
+  - [過去のバージョン一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases/latest)
+  - ※予備 [bowlroll](https://bowlroll.net/file/269946) pass:カレーうどん
 
 > [!NOTE]
 > ニコニコ動画などでこのツールを使った動画などを公開する場合は、以下のニコニコモンズをコンテンツツリーに登録して下さい！（義務ではありません）
 > 
 > [nc262424](https://commons.nicovideo.jp/material/nc262424)
 
-## できること :id=main_purpose
+## __mdi:arm-flex__ できること :id=main_purpose
 
 ### CeVIOトークのしゃべりをマネして楽譜データを出力する :id=song_voice_speaking
 
@@ -42,7 +51,7 @@ NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネ�
 - [VOICEVOX](https://voicevox.hiroshiba.jp/) (⚠仮対応)
 - 標準音声
 
-CeVIOトーク音源を持っていなくとも、内蔵の標準トーク音源や、無料のVOICEVOXなどの対応他ソフトのトーク音源が使えます。
+CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音源**や、無料の**VOICEVOX**などの対応他ソフトのトーク音源が使えます。
 
 楽譜データの書き出しは次のソング音源に対応しています。
 
@@ -97,7 +106,9 @@ CeVIOで使われる**音素表記**に変換します。
 - **他のキャラクターの声をマネする仕組み**なので、マネする元のキャラの利用規約は調べてください！
   - もしかすると禁止されてるキャラがいるかも？
   - マネと言ってもAIとかすごい技術は使ってないので大丈夫だとはおもいますが…
-  - 動画とかで使う場合は「**演技指導：キャラ名**」みたいな表記してください？
+- 動画とかで使う場合は「 **演技指導：キャラ名** （**ソフト名**） 」みたいな表記してください
+  - 同じキャラでも別のソフトで出ていることがあり、そうなると規約も変わってくるので念のためソフトも書いておいた方がいいと思います！
+  - ソフト名・キャラ名の表記が必要な場合もあります！
 
 > [!TIP]
 > - CeVIOのキャラ利用規約へのリンク
@@ -105,7 +116,16 @@ CeVIOで使われる**音素表記**に変換します。
 > - VOICEVOX
 >   - [公式ページのキャラ紹介](https://voicevox.hiroshiba.jp/)
 
-## ひつようなもの :id=requirements
+- CeVIOトークの外部連携インターフェイスは商用利用に制限があります
+  - [※通常の楽曲・動画制作と同じです](https://cevio.jp/commercial/)
+  - それ以上は商用ライセンスの購入が必要になります
+  - NodoAme自体の商用利用はOKですが、ボイス音源やキャラ、CeVIOの商用利用について、該当する場合は連絡してください
+
+> [!TIP]
+> - CeVIO: [音声データやキャラクターの利用について](https://cevio.jp/commercial/)
+> - VOICEVOX: [利用規約](https://voicevox.hiroshiba.jp/term)
+
+## __bi:patch-check-fill__ ひつようなもの :id=requirements
 
 ### ゼッタイ必要 :id=must_requirements
 
@@ -130,7 +150,7 @@ CeVIOで使われる**音素表記**に変換します。
 - アップデートは上書きして下さい
 - アンインストールはフォルダごと消して下さい
 
-## つかいかた :id=how_to_use
+## __ant-design:tool-filled__ つかいかた :id=how_to_use
 
 くわしくは[紹介動画](#紹介動画)をみてね！
 
@@ -270,6 +290,7 @@ VOLで削ってください。
 出力した音声は1小節目から始まるため、前後に空白が開きます。
 前は固定で1.3秒くらいの間なので機械的に削ってもいいかもしれません。
 
+> [!TIP]
 参考までにYMM4の場合、ボイスアイテムの「再生開始位置」に `00:00:01.3`をコピペでいれるといいです！
 
 > [!NOTE]
@@ -332,9 +353,11 @@ CeVIOソングは自動化できないので、ソング再生は手動になっ
 
 ※Synthesizer Vはもしかしたら変換すれば動くかも？わかりません！
 
+NEUTRINOはMusicXMLを経由しなければ意外と簡単にいけるかも？
+
 リクエストがあれば対応するかも？
 
-### ❔参考にするトークソフトはCeVIO以外に対応していますか？ :id=support_talksoft
+### ❔演技指導のトークソフトはCeVIO以外に対応していますか？ :id=support_talksoft
 
 NodoAmeは [SHABERU](http://akihiro0105.web.fc2.com/Downloads/Downloads-SHABERU.html)/[Open JTalk](https://open-jtalk.sp.nitech.ac.jp/)などで使われるボイス音源（`htsvoice`形式の音響モデル）に対応しています。標準男声はatr503_m001、標準女声はtohoku-f01です。利用する場合はキャラクターのボイス音源のライセンスを確認して下さい。
 
@@ -383,6 +406,9 @@ CoeFontはAPIが公開されているのですが、利用したい情報がと�
 いぬいぬの実力では無理です…。
 
 ### ❔CeVIOがインストール済なのに「みつかりません」って出る :id=cevio_not_found_but_installed
+
+> [!NOTE]
+> 演技指導としてCeVIOトークを利用する場合です。演技指導をCeVIOトーク以外にする場合は関係ありません。
 
 NodoAmeはCeVIOが普通にインストールされてる前提になってます。なので、**普通と違う場所にインストールしているとみつけられずに動きません**！
 
@@ -486,6 +512,9 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.1.4 : 標準女声のスタイルが記録されてなかったのを修正 [#3](https://github.com/InuInu2022/NodoAme.Home/issues/3)
+- ver. 0.1.3-alpha.0.1 : 同梱マニュアル更新（公式サイトへ誘導）
+- ver. 0.1.2 : COEIROINKを選択肢に表示しないように
 - ver. 0.1.1 : 出力時にアプリがおちちゃう不具合修正 [#2](https://github.com/InuInu2022/NodoAme.Home/issues/2)
 - ver. 0.1.0 : MATSURIに合わせてプロトタイプ版リリース
 
@@ -496,6 +525,7 @@ MIT Licenseです。
 ## 🐶つくった :id=developedby
 
 - InuInu（いぬいぬ）
-  - <https://bit.ly/InuInuMusic>
-  - [@InuInuGames](https://twitter.com/InuInuGames)
-  - [note.com](https://note.com/inuinu_)
+  - __fa-brands:youtube__ [YouTube](https://bit.ly/InuInuMusic)
+  - __ant-design:twitter-circle-filled__ [@InuInuGames](https://twitter.com/InuInuGames)
+  - __carbon:blog__ [note.com](https://note.com/inuinu_)
+<iframe width="320" height="160" src="https://ext.nicovideo.jp/thumb_user/98013232" scrolling="no" style="border:solid 1px #CCC;" frameborder="0">いぬいぬGames</iframe>
