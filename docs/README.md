@@ -31,7 +31,7 @@
 
 <a href="${assets[0].browser_download_url}" class="download"><span class="iconify-inline" data-icon="bx:bxs-cloud-download"></span> 最新版 ${tag_name}<br> ダウンロード</a>
 
-- [過去のバージョン一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases/latest)
+- [過去のバージョン一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases)
 - ※予備 [bowlroll](https://bowlroll.net/file/269946) pass:カレーうどん
 
 > [!NOTE]
