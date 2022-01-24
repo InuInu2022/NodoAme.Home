@@ -28,3 +28,21 @@ a[target=_blank]:after {
 	width:20px !important;
 	height:20px !important;
 }
+
+iframe[src^="https://www.youtube.com/"]{
+	width:560px !important;
+	min-width: 560px !important;
+}
+
+iframe[src^="https://ext.nicovideo.jp/"]{
+	width:560px !important;
+	height:200px !important;
+	min-width: 560px !important;
+}
+
+iframe[src^="https://ext.seiga"]{
+	width:312px !important;
+	height:176px !important;
+	min-width: 312px !important;
+	border:solid 1px #888;
+}
