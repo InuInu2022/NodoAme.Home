@@ -255,6 +255,20 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 例： [ニコニコ静画で「可不 立ち絵」で検索](https://seiga.nicovideo.jp/search/%E5%8F%AF%E4%B8%8D%20%E7%AB%8B%E3%81%A1%E7%B5%B5?target=illust&track=seiga_illust_keyword)
 
+[ちぇびおで音楽的同位体な可不たん立ち絵var1.0](https://ext.seiga.nicovideo.jp/thumb/im10864398 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[可不　立ち絵](https://ext.seiga.nicovideo.jp/thumb/im10775264 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[カレーうどん付き可不 立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im10877460 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[【トークロイド】可不立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im10888205 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[【立ち絵】可不](https://ext.seiga.nicovideo.jp/thumb/im10888910 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[22/1/23更新◆デフォルメ立ち絵 いいね押し忘れ防止ver.](https://ext.seiga.nicovideo.jp/thumb/im10809604 ':include :type=iframe width=312px height=176px scrolling=no')
+
+
+
 > [!NOTE]
 > YMM4で使うためには少し素材の書き出し方に工夫が必要です。
 > [立ち絵機能](https://manjubox.net/ymm4/faq/%E7%AB%8B%E3%81%A1%E7%B5%B5%E6%A9%9F%E8%83%BD/)
