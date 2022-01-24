@@ -17,7 +17,7 @@ a:hover.download{
 	color:#ffffff;
 }
 
-a[target=_blank]:after {
+a[target=_blank][rel=noopener]:after {
 	margin: 0 3px;
 	font-family: FontAwesome;
 	vertical-align: middle;
