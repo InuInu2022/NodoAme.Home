@@ -265,9 +265,9 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [【立ち絵】可不](https://ext.seiga.nicovideo.jp/thumb/im10888910 ':include :type=iframe width=312px height=176px scrolling=no')
 
+[【立ち絵】デフォルメ 可不](https://ext.seiga.nicovideo.jp/thumb/im10889287 ':include :type=iframe width=312px height=176px scrolling=no')
+
 [22/1/23更新◆デフォルメ立ち絵 いいね押し忘れ防止ver.](https://ext.seiga.nicovideo.jp/thumb/im10809604 ':include :type=iframe width=312px height=176px scrolling=no')
-
-
 
 > [!NOTE]
 > YMM4で使うためには少し素材の書き出し方に工夫が必要です。
@@ -403,6 +403,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] 標準音声からの出力対応
   - [x] 母音無声化 出力対応
   - [x] カレーうどんをすする 出力対応
+  - [ ] CeVIO CSソング対応改善
   - [ ] 「ん」の使い分け 出力対応
   - [ ] 「が」の使い分け 出力対応
   - [ ] セリフファイル出力
