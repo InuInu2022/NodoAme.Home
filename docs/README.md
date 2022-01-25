@@ -565,6 +565,8 @@ CeVIO CSもおんなじ感じでできます。
 
 英語トーク音源→英語ソング音源はうまくいきます（例：弦巻マキトークEnglish→IAソングEnglish）。
 
+[YouTube video player](https://www.youtube.com/embed/XknZFUlhMWE ':include :type=iframe width=560px height=315px allowfullscreen')
+
 ### ❔ラップやポエトリーリーディングに使えますか？ :id=rap_and_poetry
 
 難しそうです…。
@@ -618,4 +620,5 @@ MIT Licenseです。
   - __fa-brands:youtube__ [YouTube](https://bit.ly/InuInuMusic)
   - __ant-design:twitter-circle-filled__ [@InuInuGames](https://twitter.com/InuInuGames)
   - __carbon:blog__ [note.com](https://note.com/inuinu_)
+
 <iframe width="320" height="160" src="https://ext.nicovideo.jp/thumb_user/98013232" scrolling="no" style="border:solid 1px #CCC;" frameborder="0">いぬいぬGames</iframe>
