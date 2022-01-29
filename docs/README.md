@@ -444,7 +444,7 @@ NodeAmeはCSのソングボイス向けに出力できますが、
 
 [YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M?start=526&end=546 ':include :type=iframe width=560px height=315px allowfullscreen')
 
-リクエストがあれば将来的なアップデートで対応します！
+※[バージョン 0.2 で対応予定です！](#next-version)
 
 ### ❔コメント読み上げとかに使えますか？ :id=can_i_use_comment_reading
 
@@ -452,7 +452,10 @@ NodeAmeはCSのソングボイス向けに出力できますが、
 
 CeVIOソングは自動化できないので、ソング再生は手動になってます。
 
-みんなで公式にリクエストを送ろう！
+> [!NOTE]
+ソングの出力も自動化できたら、NodoAme自体にもAPIをつけたいです！
+
+CeVIOソングも外部インターフェイスがつくように、みんなで公式にリクエストを送ろう！
 [https://cevio.jp/contact_soft/](https://cevio.jp/contact_soft/)
 
 ### ❔CeVIO AI以外のボーカルシンセサイザーには対応していますか？ :id=other_vocal_synth
@@ -462,7 +465,7 @@ CeVIOソングは自動化できないので、ソング再生は手動になっ
 
 ※Synthesizer Vはもしかしたら変換すれば動くかも？わかりません！
 
-NEUTRINOはMusicXMLを経由しなければ意外と簡単にいけるかも？
+NEUTRINOはMusicXMLを経由しなければ意外と簡単にいけるかも？調査中です！
 
 リクエストがあれば対応するかも？
 
@@ -479,7 +482,7 @@ NodoAmeは無料のトークソフト [VOICEVOX](https://voicevox.hiroshiba.jp/)
 - **VOICEVOX**
   - 暫定で対応しました！
   - 利用の際はVOICEVOXを先に起動しておいてください
-  - パラメータ変更は対応予定です
+  - パラメータ変更は対応予定です ※[バージョン 0.2 で対応予定です！](#next-version)
 
 COEIROINKはもしAPIの一部機能が対応したら、対応します。
 
@@ -507,6 +510,10 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
 CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。A.I.VOICEはAPIが公開されたら検討してみます。
 
 考えてるアイディアがうまく行けば、VOICEROIDや生声音声もうまくいくかもしれません。ただし、精度は落ちるかもです…。
+
+> [!NOTE]
+> NodoAmeが利用するのは音素情報（発音情報）とタイミング情報です。
+> 一応出力された音声から推定する方法もあることはあるんですが…
 
 #### 生声を真似することはできる？ :id=human_voice
 
@@ -561,6 +568,39 @@ CeVIO CSもおんなじ感じでできます。
 > [!ATTENTION]
 ちなみに、今は上書きインストールすると消えちゃいます！
 アップデートのときは上書きインストールしたあとにもう一度設定書き換えてください！
+
+### ❔VOICEVOXがインストール済なのに使えない :id=voicevox_not_launched
+
+> [!NOTE]
+> 演技指導としてVOICEVOXを利用する場合です。演技指導をVOICEVOX以外にする場合は関係ありません。
+
+- **VOICEVOXはNodoAmeから利用する前に起動しておいてください！**
+  - NodoAmeにはVOICEVOXを起動する機能はありません
+- **起動しているのに通信できない**、と出る場合は
+  - VOICEVOXを再起動してみてください
+  - VOICEVOXのエンジンが
+- ポート番号を変えている場合は**設定ファイルを書き換えると動くかも**しれません！
+
+まず、NodoAmeが動いていたら、終了してください！
+
+次に、NodoAme本体の`NodoAme.exe`があるところに`NodoAme.Settings.json` というファイルがあります！
+このファイルをメモ帳なんかで開いて下の場所を探してください。
+
+```json
+			"id":"3",
+			"name":"VOICEVOX",
+			"hidden":false,
+			"enabledPreview":true,
+			"enabledExport":true,
+			"interface":{
+				"type":"REST",
+				"engine":"VOICEVOX",
+				"restHost":"http://localhost:50021/"
+			},
+```
+
+ここの '"restHost":' のあとのURLの部分を書き換えると動くようになるかもしれません。
+'50021'の数字を、変えたポート番号に書き換えてください！
 
 ### ❔「⚠」のついてる選択肢は何ですか？ :id=whats_attension_mark
 
