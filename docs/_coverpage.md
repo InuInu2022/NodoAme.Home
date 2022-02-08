@@ -4,10 +4,10 @@
 
 # NodoAme
 
-> CeVIO AIソングをしゃべらせる！
+> CeVIO ソングをしゃべらせる！
 
-- CeVIO AIソング（可不ちゃんなど）をしゃべってる風に歌わせる
+- CeVIO ソング（可不ちゃんなど）をしゃべってる風に歌わせる
 - ソフトウェアトークソフトのしゃべりをマネする
-- CeVIO AIソングサポートツール
+- CeVIO ソングサポートツール
 
 [<span class="iconify-inline" data-icon="bx:bxs-cloud-download"></span> ダウンロード](#dl)
