@@ -7,8 +7,8 @@
 
 ## __charm:candy__ これはなに？ :id=whats_nodoame
 
-[CeVIO AIソング](https://cevio.jp/products_cevio_ai/)（可不ちゃんなど）をしゃべってる風に歌わせるための補助ツールです。
-おまけ機能で歌詞の音素表記変換機能もあります。
+[CeVIO ソング](https://cevio.jp/products_cevio_ai/)（可不ちゃんなど）をしゃべってる風に歌わせるための補助ツールです。
+おまけ機能で歌詞の表記変換(発音通りのひらがな・音素)機能もあります。
 
 ![ss](_media/screenshot/main.png ':size=400')
 
@@ -37,11 +37,8 @@
 <details id="next-version" style="margin:1em 0;margin:1.5em;">
 <summary>次期バージョンの予定</summary>
 
-- v0.2.0 では次を予定しているよ！
-  - CeVIO CSソングサポート
-  - VOICEVOXパラメータサポート
-  - セリフのテキスト書き出し
-  - CeVIO AIソング東北ずん子・イタコサポート
+- v0.3.0 では次を予定しているよ！
+  - CeVIOトークの感情合成対応
 
 </details>
 
@@ -56,14 +53,14 @@
 
 ### CeVIOトークのしゃべりをマネして楽譜データを出力する :id=song_voice_speaking
 
-NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネして、CeVIO AIソングむけの楽譜データ(ccstファイル)を出力します。
+NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネして、CeVIOソングむけの楽譜データ(ccstファイル)を出力します。
 出力したccstファイルをソングエディタ上で再生すると、しゃべってる風に歌ってくれます。
 
 現在は次のトーク音源に対応しています。
 
 - [CeVIO AI](https://cevio.jp/)
 - [CeVIO Creative Studio 7](https://cevio.jp/product/ccs/)
-- [VOICEVOX](https://voicevox.hiroshiba.jp/) (⚠仮対応)
+- [VOICEVOX](https://voicevox.hiroshiba.jp/) 
 - 標準音声
 
 CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音源**や、無料の**VOICEVOX**などの対応他ソフトのトーク音源が使えます。
@@ -78,20 +75,23 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA
   - IA English（英語音源なので発音が変です）
   - OИE
-
-> [!NOTE]
-> CeVIO AI 東北ずん子、東北イタコ、星界（SEKAI）も対応予定です。
-
-> [!ATTENTION]
-> ※CeVIO Creative Studio向けソング音源は出力できますが、発音がおかしいです。現時点では未対応です。
-
+  - 東北ずん子
+  - 東北イタコ
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
   - Color Voice Series
   - IA
-  - IA English C (Natural / Powerful)
   - OИE
+> [!NOTE]
+> CeVIO AI 星界（SEKAI）も対応予定です。
+
+> [!ATTENTION]
+> ※CeVIO Creative StudioのIA English C向けソング音源は出力できますが、発音がおかしくなると思います。
+
+- CeVIO Creative Studio 7
+  - IA English C (Natural / Powerful)
+
 
 > [!NOTE]
 > 楽譜データ、といってますが、実は楽譜（ノート）情報はあまりつかっていません。開いてみるとわかります。
@@ -99,9 +99,14 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
 > [!NOTE|label:詳しい説明はこちら！|iconVisibility:hidden]
 > __bi:arrow-down-circle-fill__ [ソングボイスにしゃべらせる](#how_to_do_song_voice_speaking)
 
-### 文章の音素表記を表示する :id=show_phonemes
+### 文章の音素表記・ひらがなを表示する :id=show_phonemes
 
-CeVIOで使われる**音素表記**に変換します。
+CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換します。
+
+- 「こんにちは、おはよう」
+  - 発音通りのひらがな：「`こんにちわ おはよお`」
+  - 音素表記：「`koNnichiwa ohayoo`」
+
 オプションをONにすると、めっちゃむずかしい日本語の発音ルールに合わせて自動でそれっぽく変更します。
 
 どちらかというとソングユーザー向けです。
@@ -224,9 +229,10 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 ![](_media/screenshot/options.png)
 
-- 音素表示オプション
-  - 音素/ひらがな表示：⚠まだ機能しません
+- セリフ変換オプション
+  - 音素/ひらがな表示：音素表示とひらがな表示をきりかえます
   - スペース区切り：スペースで区切るかどうか
+- 音素表示オプション
   - 「ん」を変換する：「ん」を`[n][m][N][n,g]`の4パターンに変換します
   - 「が」を変換する：「が」を`[g][n,g]`の2パターンに変換します
   - 無声母音そのまま/小文字化/削除：最初は大文字で表示される無声母音を変換します
@@ -311,24 +317,27 @@ CeVIOトークには外部連携インターフェイスが用意されていま
 > [!NOTE|label:「音素表示機能」の説明はこちら！|iconVisibility:hidden]
 > __bi:arrow-up-circle-fill__ [音素を調べる](#how_to_check_phonemes)
 
-### CeVIO CSソング未対応
+### ~~CeVIO CSソング未対応~~
 
-喋ってる風の楽譜データはCeVIO CSでも読めますが、ちゃんと発音できません。音声合成エンジンの違いが理由かも？
-TMGの青線を手で調整すると少しはマシになるんですが…。
+※[バージョン 0.2 で対応しました！](#dl)
 
-[YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M?start=526&end=546 ':include :type=iframe width=560px height=315px allowfullscreen')
+### ~~セリフファイル出力未対応~~
 
-昔ながらのトークロイド的な方法で出力するように将来的に改良するかもしれません（その時は変換すると他のボーカルシンセサイザーでも使えるようになると思います）。
+※[バージョン 0.2 で対応しました！](#dl)
 
-※[バージョン 0.2 で対応予定です！](#next-version)
+セリフはトラックファイル名になるため、そのまま書き出しすれば動画制作ツール（Aviutl+かんしくん/YMM4など）でセリフとして取り込めます。
 
-### セリフファイル出力未対応
+が、長文など一部対応できない場合があります。
+そこでセリフをテキストファイルに出力するように対応しました。
 
-セリフはトラックファイル名になるため、そのまま書き出しすれば動画制作ツール（Aviutl+かんしくん/YMM4など）でセリフとして取り込めますが、長文など一部対応できない場合があります。
+![セリフ保存オプション](./_media/screenshot/save_seriftext_option.png)
 
-セリフを直接出力する方法を検討しています!
+`オプション > 保存 > セリフをテキストファイルに保存`に✔をいれてね！
 
-※[バージョン 0.2 で対応予定です！](#next-version)
+ccstファイルとは別の場所に保存できます。音声ファイルと同じところに置いておくと取り込みに便利です。
+
+テキストファイル名はCeVIOと同じような名前がつけられます！「セリフ保存オプション」を開いて設定してください！
+ボタンを押すとカーソル位置に「`$`」で囲まれた文字が入ります。
 
 ### CCSファイル出力未対応
 
@@ -352,7 +361,7 @@ CeVIOトークの感情は現在プリセットと同等のもののみ対応で
 
 VOICEVOXはキャラの選択とスタイルの変更だけ対応しています。
 
-※[バージョン 0.2 で対応予定です！](#next-version)
+※[バージョン 0.2 で対応しました！](#dl)
 
 ### セリフやパラメータの保存に未対応
 
@@ -414,7 +423,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
 
 - 入力
   - [ ] CeVIOトークの感情合成対応
-  - [ ] [VOICEVOX](https://voicevox.hiroshiba.jp/)のパラメータ対応
+  - [x] [VOICEVOX](https://voicevox.hiroshiba.jp/)のパラメータ対応
   - [ ] [COEIROINK](https://coeiroink.com/)への対応
   - [ ] セリフごとのパラメータに対応
   - [ ] 台本テキストの読み込み
@@ -422,10 +431,10 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] 標準音声からの出力対応
   - [x] 母音無声化 出力対応
   - [x] カレーうどんをすする 出力対応
-  - [ ] CeVIO CSソング対応改善
+  - [x] CeVIO CSソング対応改善
   - [ ] 「ん」の使い分け 出力対応
   - [ ] 「が」の使い分け 出力対応
-  - [ ] セリフファイル出力
+  - [x] セリフファイル出力
   - [ ] まとめてccsファイル出力
   - [ ] 視聴した音声のファイル出力
   - [ ] 対象キャラに合わせたCeVIO AIとCSの自動起動に対応
@@ -439,12 +448,10 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
 
 ### ❔CeVIO Creative Studioのソングはしゃべらせられますか？ :id=cevio_cs_song_support
 
-NodeAmeはCSのソングボイス向けに出力できますが、
-今の仕組みだとちゃんとしゃべってるように聞こえません…
+※[バージョン 0.2 で対応しました！](#dl)
 
-[YouTube video player](https://www.youtube.com/embed/lHshJSPfd-M?start=526&end=546 ':include :type=iframe width=560px height=315px allowfullscreen')
-
-※[バージョン 0.2 で対応予定です！](#next-version)
+バージョン0.1と同じにしたい場合は、
+「KANA」を「PHONEME」に、オプションの中の「MEDIAN」を「FIXED」に変換してください。
 
 ### ❔コメント読み上げとかに使えますか？ :id=can_i_use_comment_reading
 
@@ -480,9 +487,7 @@ NodoAmeは [SHABERU](http://akihiro0105.web.fc2.com/Downloads/Downloads-SHABERU.
 NodoAmeは無料のトークソフト [VOICEVOX](https://voicevox.hiroshiba.jp/) にも対応しています。
 
 - **VOICEVOX**
-  - 暫定で対応しました！
   - 利用の際はVOICEVOXを先に起動しておいてください
-  - パラメータ変更は対応予定です ※[バージョン 0.2 で対応予定です！](#next-version)
 
 COEIROINKはもしAPIの一部機能が対応したら、対応します。
 
@@ -597,8 +602,8 @@ CeVIO CSもおんなじ感じでできます。
 			},
 ```
 
-ここの '"restHost":' のあとのURLの部分を書き換えると動くようになるかもしれません。
-'50021'の数字を、変えたポート番号に書き換えてください！
+ここの` "restHost": `のあとのURLの部分を書き換えると動くようになるかもしれません。
+`50021`の数字を、変えたポート番号に書き換えてください！
 
 ### ❔「⚠」のついてる選択肢は何ですか？ :id=whats_attension_mark
 
@@ -644,6 +649,12 @@ BPMが150固定とか、あとからの手直しにはあまり向いてない�
 
 CeVIO Creative Studioなら[CevioTalkSync](https://www.nicovideo.jp/watch/sm37419010)というソフトがあります！
 
+### ❔トークtoトークはできますか？ :id=can_convert_talk_to_talk
+
+いまのところできません！
+
+ソングに比べると、指定できるパラメータがすくなかったり、ざっくりだったりして、再現が難しそうです…。
+
 ## __tabler:license__ ライセンス :id=licenses
 
 ```txt
@@ -661,6 +672,16 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.2.0 : バージョンアップ
+  - いっぱい対応
+  - CeVIO CSソング対応改善
+  - VOICEVOXのパラメータに対応
+  - CeVIO AI東北ずん子・東北イタコ サポート
+  - セリフのテキスト出力機能追加
+  - セリフのひらがな変換表示機能追加
+  - セリフ行を増やすオプション追加
+  - 公式サイトを開くボタン追加
+  - あと、いろいろなバグをなおしたよ！
 - ver. 0.1.4 : 標準女声のスタイルが記録されてなかったのを修正 [#3](https://github.com/InuInu2022/NodoAme.Home/issues/3)
 - ver. 0.1.3-alpha.0.1 : 同梱マニュアル更新（公式サイトへ誘導）
 - ver. 0.1.2 : COEIROINKを選択肢に表示しないように
