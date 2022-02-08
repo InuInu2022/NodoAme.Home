@@ -91,9 +91,6 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 
-> [!NOTE]
-> 楽譜データ、といってますが、実は楽譜（ノート）情報はあまりつかっていません。開いてみるとわかります。
-
 > [!NOTE|label:詳しい説明はこちら！|iconVisibility:hidden]
 > __bi:arrow-down-circle-fill__ [ソングボイスにしゃべらせる](#how_to_do_song_voice_speaking)
 
@@ -212,6 +209,10 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
    3. トラックはミュート状態になってますのでソロに切り替えて再生してください
 9.  いい感じにしゃべっていたら、「ソングのwav書き出し」でトラック毎に保存してください！
    1. ファイル名がそのままセリフになるので、[Aviutl+かんしくん](https://oov.github.io/aviutl_psdtoolkit/forcepser.html)や[YMM4のカスタムボイス](https://manjubox.net/ymm4/faq/%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A%E3%83%9C%E3%82%A4%E3%82%B9/%E5%A4%96%E9%83%A8%E3%81%AE%E9%9F%B3%E5%A3%B0%E5%90%88%E6%88%90%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84/)で自動で取り込むことができます
+
+> [!TIP]
+> 楽譜データ、といってますが、実は楽譜（ノート）情報はあまりつかっていません。開いてみるとわかります。
+
 
 ### 発音通りのひらがな・音素を調べる :id=how_to_check_phonemes
 
