@@ -5,6 +5,13 @@
 
 しゃべるCeVIOソング補助ツール [#喋らせてみた](https://www.google.com/search?q=%23%E5%96%8B%E3%82%89%E3%81%9B%E3%81%A6%E3%81%BF%E3%81%9F)
 
+## お知らせ
+
+> [!Note]
+> NodoAmeのTwitterコミュニティをつくったほうがいいかどうかのアンケートをやってます。
+> Twitterをやられている方は是非投票していただけると助かります。
+> <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">Twitterにコミュニティ機能できましたけど、 <a href="https://twitter.com/hashtag/NodoAme?src=hash&amp;ref_src=twsrc%5Etfw">#NodoAme</a> のコミュニティつくったら入りたい方いますか？<br>気軽に感想や質問をつぶやける場所があったほうがいいかも？と思いまして…。</p>&mdash; いぬいぬGames (@InuInuGames) <a href="https://twitter.com/InuInuGames/status/1497815815542177797?ref_src=twsrc%5Etfw">February 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## __charm:candy__ これはなに？ :id=whats_nodoame
 
 [CeVIO ソング](https://cevio.jp/products_cevio_ai/)（可不ちゃんなど）をしゃべってる風に歌わせるための補助ツールです。
@@ -39,6 +46,8 @@
 
 - v0.3.0 では次を予定しているよ！
   - CeVIOトークの感情合成対応
+  - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）対応
+  - 知声ちゃん対応はできたらいいなぁ…
 
 </details>
 
@@ -82,7 +91,8 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA
   - OИE
 > [!NOTE]
-> CeVIO AI 星界（SEKAI）も対応予定です。
+> CeVIO AI 星界（SEKAI）、すずきつづみソング、キズナ(#KZN)も対応予定です。
+> また、CeVIO Pro知声(Chis-A)も検証中です
 
 > [!ATTENTION]
 > ※CeVIO Creative StudioのIA English C向けソング音源は出力できますが、発音がおかしくなると思います。
@@ -115,7 +125,7 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 > [!NOTE]
 > **__maki:restaurant-noodle__ SUSURU～!**
 
-カレーうどんやカレーそば、カレーラーメンをすすっているような声を出せる、隠し機能です。
+カレーうどんやカレーそば、カレーラーメンをすすっているような声を出せる、隠し機能です。星界ちゃんにパスタをすすってもらうこともできます。
 
 オプションの中に隠されているボタンを押すと、現在の選択されたソングのキャラ向けに出力します（可不ちゃん以外もOK）。
 
@@ -161,7 +171,7 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 ### ゼッタイ必要 :id=must_requirements
 
 - Windows 10以降
-- CeVIO AIソングエディター＆ボイス
+- CeVIO AIまたはCSソングエディター＆ボイス
 - .NET Framework 4.8
   - ※CeVIOが動く場合はもう入ってます！
 
@@ -444,6 +454,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [ ] 対象キャラに合わせたCeVIO AIとCSの自動起動に対応
   - [ ] CeVIOの読み込み時のダイアログ抑制
   - [ ] 出力音声の前後無音部分クリッピング
+  - [ ] ブレスOFF、ブレス抑制機能
 - 保存
   - [x] オプションの設定保存に対応
   - [ ] セリフやパラメータの保存(プロジェクトファイル)に対応
@@ -513,7 +524,7 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
 
 #### それ以外のトークソフト対応について :id=other_talk_soft
 
-CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。A.I.VOICEはAPIが公開されたら検討してみます。
+CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。A.I.VOICEはAPIが公開されたのですが、そのままではやはり利用した情報がとれず、再考中です。
 
 考えてるアイディアがうまく行けば、VOICEROIDや生声音声もうまくいくかもしれません。ただし、精度は落ちるかもです…。
 
