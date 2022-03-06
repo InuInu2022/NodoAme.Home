@@ -8,9 +8,9 @@
 ## お知らせ
 
 > [!Note]
-> NodoAmeのTwitterコミュニティをつくったほうがいいかどうかのアンケートをやってます。
-> Twitterをやられている方は是非投票していただけると助かります。
-> <blockquote class="twitter-tweet" data-conversation="none"><p lang="ja" dir="ltr">Twitterにコミュニティ機能できましたけど、 <a href="https://twitter.com/hashtag/NodoAme?src=hash&amp;ref_src=twsrc%5Etfw">#NodoAme</a> のコミュニティつくったら入りたい方いますか？<br>気軽に感想や質問をつぶやける場所があったほうがいいかも？と思いまして…。</p>&mdash; いぬいぬGames (@InuInuGames) <a href="https://twitter.com/InuInuGames/status/1497815815542177797?ref_src=twsrc%5Etfw">February 27, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+> 試しに[Twitterコミュニティ](https://twitter.com/i/communities/1500356662636716034)作ってみました！
+> Twitterをやられている方はご確認ください！
+> https://twitter.com/i/communities/1500356662636716034
 
 ## __charm:candy__ これはなに？ :id=whats_nodoame
 
