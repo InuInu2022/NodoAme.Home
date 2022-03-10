@@ -706,6 +706,7 @@ MIT Licenseです。
 ## __ant-design:star-filled__ スペシャルサンクス :id=speacialthanks
 
 - たらそば さん [@tarasoba9672](https://twitter.com/tarasoba9672)
+- かりんと さん
 
 ## 🐶つくった :id=developedby
 
