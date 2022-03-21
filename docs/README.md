@@ -468,6 +468,21 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
 バージョン0.1と同じにしたい場合は、
 「KANA」を「PHONEME」に、オプションの中の「MEDIAN」を「FIXED」に変換してください。
 
+### ❔CeVIO CSでしゃべらせたいのに、CeVIO AIが開いてしまいます :id=cevio_cs_and_ai_ccst_associate
+
+Windowsのファイルの「関連付け」で、ccstファイルがCeVIO AIに登録されているためです！
+関連付けを変更にするには、ccstファイルを右クリックから「プログラムからひらく」＞「CeVIO Creative Studio」で開くを選んで、
+いちどCSで開く必要があります！
+
+> [!ATTENTION]
+>アイコンがCSの方の選択肢を選んでください。CeVIO AIも同じ名前になっちゃうバグがあるみたいです。
+
+こうすれば自動でCSで開くようになりますが、今度はAIでは開かなくなります。
+（同じ操作をAIでやる必要があります）
+
+めちゃくちゃ面倒なので何とかしたいのですが、仕組み上難しいです。
+（専用の拡張子をつくって開くようにする（例：ccstcst ccstai)ならできるんですが…）
+
 ### ❔コメント読み上げとかに使えますか？ :id=can_i_use_comment_reading
 
 使えません！
