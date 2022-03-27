@@ -38,7 +38,7 @@
 
 <a href="${assets[0].browser_download_url}" class="download"><span class="iconify-inline" data-icon="bx:bxs-cloud-download"></span> 最新版 ${tag_name}<br> ダウンロード</a>
 
-- [過去のバージョン一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases)
+- [過去のバージョン/先行公開版一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases)
 - ※予備 [bowlroll](https://bowlroll.net/file/269946) pass:カレーうどん
 
 <details id="next-version" style="margin:1em 0;margin:1.5em;">
@@ -46,8 +46,10 @@
 
 - v0.3.0 では次を予定しているよ！
   - CeVIOトークの感情合成対応
-  - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）対応
-  - 知声ちゃん対応はできたらいいなぁ…
+  - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）、キズナちゃん、戸山香澄ちゃん、湊友希那ちゃん仮対応
+  - CeVIO Pro/知声ちゃん対応
+    - [v0.3.0 alpha-10で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.10)
+  - 息継ぎブレス音抑制機能
 
 </details>
 
@@ -90,15 +92,20 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - Color Voice Series
   - IA
   - OИE
+
 > [!NOTE]
-> CeVIO AI 星界（SEKAI）、すずきつづみソング、キズナ(#KZN)も対応予定です。
-> また、CeVIO Pro知声(Chis-A)も検証中です
+> CeVIO AI 星界（SEKAI）、すずきつづみソング、キズナ(#KZN)、戸山香澄、湊友希那も対応予定です。
+> また、CeVIO Pro知声(Chis-A)も対応予定です（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.10)）。
 
 > [!ATTENTION]
 > ※CeVIO Creative StudioのIA English C向けソング音源は出力できますが、発音がおかしくなると思います。
 
 - CeVIO Creative Studio 7
   - IA English C (Natural / Powerful)
+
+> [!ATTENTION]
+> CeVIO Pro（仮）のver.0.4からはCCS/CCSTファイルがインポートできるのですが、音素の再現にバグがあるようでセリフによっては上手く喋れません。
+> tssprjに対応したバージョンを先行で公開しています（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.10)）。こちらはちゃんと喋れます。
 
 
 > [!NOTE|label:詳しい説明はこちら！|iconVisibility:hidden]
@@ -295,7 +302,10 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [【立ち絵】デフォルメ 可不](https://ext.seiga.nicovideo.jp/thumb/im10889287 ':include :type=iframe width=312px height=176px scrolling=no')
 
-[22/1/23更新◆デフォルメ立ち絵 いいね押し忘れ防止ver.](https://ext.seiga.nicovideo.jp/thumb/im10809604 ':include :type=iframe width=312px height=176px scrolling=no')
+[デフォルメ立ち絵 いいね押し忘れ防止ver.](https://ext.seiga.nicovideo.jp/thumb/im10809604 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[【立ち絵】知声](https://ext.seiga.nicovideo.jp/thumb/im10906631 ':include :type=iframe width=312px height=176px scrolling=no')
+
 
 > [!NOTE]
 > YMM4で使うためには少し素材の書き出し方に工夫が必要です。
@@ -308,7 +318,7 @@ NodoAmeはプロトタイプ版なので、未実装機能やない機能が色�
 
 ### ソング出力は手動
 
-一応、書き出した楽譜ファイルを自動で読み込んでもらえるようにしました！
+一応、書き出した楽譜ファイルを自動で読み込んでもらえるようにしました（CeVIO CS/AI）！
 
 ですが、そこから先は手動です…！
 CeVIOトークには外部連携インターフェイスが用意されていますが、ソングにはないので自動化が難しいです！
@@ -316,6 +326,12 @@ CeVIOトークには外部連携インターフェイスが用意されていま
 みんなで公式にリクエストを送ろう！
 
 [https://cevio.jp/contact_soft/](https://cevio.jp/contact_soft/)
+
+> [!TIP]
+> ccstファイルに関連付けられたソフトが自動起動するので、CSとAI両方持っていると、
+> CSの子にしゃべらせたいのにCeVIO AIが起動してしまったりします。
+> 開きたいソフトで一度CCSTファイルを開いておく必要があります。
+> →「[❔CeVIO CSでしゃべらせたいのに、CeVIO AIが開いてしまいます](#cevio_cs_and_ai_ccst_associate)」
 
 ### 「ん」・「が」の使い分け未対応
 
@@ -446,6 +462,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] 母音無声化 出力対応
   - [x] カレーうどんをすする 出力対応
   - [x] CeVIO CSソング対応改善
+  - [x] CeVIO Pro（tssprj）出力対応
   - [ ] 「ん」の使い分け 出力対応
   - [ ] 「が」の使い分け 出力対応
   - [x] セリフファイル出力
@@ -497,7 +514,7 @@ CeVIOソングも外部インターフェイスがつくように、みんなで
 
 ### ❔CeVIO AI以外のボーカルシンセサイザーには対応していますか？ :id=other_vocal_synth
 
-今の仕組みはおそらくCeVIO AIでしかつかえません。
+今の仕組みはおそらくCeVIO CS/AI/Pro（仮）でしかつかえません。
 トークロイドでよく使われる楽譜の使い方をしていない為、ccsファイルを変換してもおそらく発音できないと思います。
 
 ※Synthesizer Vはもしかしたら変換すれば動くかも？わかりません！
@@ -539,7 +556,8 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
 
 #### それ以外のトークソフト対応について :id=other_talk_soft
 
-CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。A.I.VOICEはAPIが公開されたのですが、そのままではやはり利用した情報がとれず、再考中です。
+CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。A.I.VOICEはAPIが公開されたのですが、そのままではやはり利用したい情報がとれず、再考中です。
+LMROIDはAPIがあるのですがCOEIROINKとおなじでタイミング情報がとれません。
 
 考えてるアイディアがうまく行けば、VOICEROIDや生声音声もうまくいくかもしれません。ただし、精度は落ちるかもです…。
 
@@ -702,6 +720,7 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.0 alpha-10 : CeVIO Pro tssprj対応 先行公開
 - ver. 0.2.0 : バージョンアップ
   - いっぱい対応
   - CeVIO CSソング対応改善
