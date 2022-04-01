@@ -53,10 +53,12 @@
 
 - v0.3.0 では次を予定しているよ！
   - CeVIOトークの感情合成対応
+   - [v0.3.0 alpha-14で対応!](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.14)
   - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）、キズナちゃん、戸山香澄ちゃん、湊友希那ちゃん仮対応
   - CeVIO Pro/知声ちゃん対応
     - [v0.3.0 alpha-10で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.10)
   - 息継ぎブレス音抑制機能
+    - [v0.3.0 alpha-11で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)
 
 </details>
 
@@ -190,7 +192,7 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 ### ゼッタイ必要 :id=must_requirements
 
 - Windows 10以降
-- CeVIO AIまたはCSソングエディター＆ボイス
+- CeVIO AI または CS または Pro ソングエディター＆ボイス
 - .NET Framework 4.8
   - ※CeVIOが動く場合はもう入ってます！
 
@@ -392,9 +394,11 @@ CeVIOは32トラックまでしか読み込めないため30行だけ用意し�
 
 現在はトークソフトの調声パラメータは全体で共通ですが、セリフごとに設定出来るようにする予定です。
 
-### CeVIOの感情合成に未対応
+### ~~CeVIOの感情合成に未対応~~
 
-CeVIOトークの感情は現在プリセットと同等のもののみ対応です。~~UIつくるの面倒~~ 対応を検討しています!
+※先行公開版のver. 0.3.0 alpha-14から対応しました！
+
+~~CeVIOトークの感情は現在プリセットと同等のもののみ対応です。~~UIつくるの面倒~~ 対応を検討しています!~~
 
 ### ~~VOICEVOXのパラメータに未対応~~
 
@@ -467,7 +471,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
 ## __icons8:todo-list__ やりたいこと :id=i_want_to_do
 
 - 入力
-  - [ ] CeVIOトークの感情合成対応
+  - [x] CeVIOトークの感情合成対応
   - [x] [VOICEVOX](https://voicevox.hiroshiba.jp/)のパラメータ対応
   - [ ] [COEIROINK](https://coeiroink.com/)への対応
   - [ ] セリフごとのパラメータに対応
@@ -486,7 +490,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [ ] 対象キャラに合わせたCeVIO AIとCSの自動起動に対応
   - [ ] CeVIOの読み込み時のダイアログ抑制
   - [ ] 出力音声の前後無音部分クリッピング
-  - [ ] ブレスOFF、ブレス抑制機能
+  - [x] ブレスOFF、ブレス抑制機能
 - 保存
   - [x] オプションの設定保存に対応
   - [ ] セリフやパラメータの保存(プロジェクトファイル)に対応
@@ -735,6 +739,7 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.0 alpha-14 : CeVIOトーク 感情合成機能対応
 - ver. 0.3.0 alpha-11 : 息継ぎブレス抑制機能追加 先行公開
 - ver. 0.3.0 alpha-10 : CeVIO Pro tssprj対応 先行公開
 - ver. 0.2.0 : バージョンアップ
