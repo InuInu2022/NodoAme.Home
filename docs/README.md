@@ -53,12 +53,14 @@
 
 - v0.3.0 では次を予定しているよ！
   - CeVIOトークの感情合成対応
-   - [v0.3.0 alpha-14で対応!](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.14)
-  - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）、キズナちゃん、戸山香澄ちゃん、湊友希那ちゃん仮対応
+    - [v0.3.0 alpha-14で対応!](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.14)
+  - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）、キズナちゃん、戸山香澄ちゃん、湊友希那ちゃん、裏命（RIME）ちゃん仮対応
   - CeVIO Pro/知声ちゃん対応
     - [v0.3.0 alpha-10で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.10)
   - 息継ぎブレス音抑制機能
     - [v0.3.0 alpha-11で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)
+  - ウソ英語機能
+    - CeVIO AI トーク弦巻マキEnglishが必要です！
 
 </details>
 
@@ -103,7 +105,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - OИE
 
 > [!NOTE]
-> CeVIO AI 星界（SEKAI）、すずきつづみソング、キズナ(#KZN)、戸山香澄、湊友希那も対応予定です。
+> CeVIO AI 星界（SEKAI）、すずきつづみソング、キズナ(#KZN)、戸山香澄、湊友希那、裏命(RIME)も対応予定です。
 > また、CeVIO Pro知声(Chis-A)も対応予定です（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)）。
 
 > [!ATTENTION]
