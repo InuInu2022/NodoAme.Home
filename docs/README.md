@@ -688,13 +688,15 @@ CeVIO CSもおんなじ感じでできます。
 
 ### ❔英語はしゃべらせられますか？ :id=english_speaking
 
-運が良ければ…。
+先行公開版（ [v.0.3.0-alpha.16](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.16) ）で、英語のトーク音源（CeVIO AIトーク弦巻マキEnglish）に演技指導してもらうことで、
+ウソ英語がしゃべれるようになりました。
 
-英語のトーク音源（CeVIO AIトーク弦巻マキEnglish）に喋ってもらった音声をマネしたデータを出力はできますが、日本語にない音が含まれる場合は発音できません。
+[YouTube video player](https://www.youtube.com/embed/f2qonxX0YMs ':include :type=iframe width=560px height=315px allowfullscreen')
 
-セリフの中の音素が日本語と**運良く**一緒になれば、日本語ボイスでも発音できるかも？
+「EN_TO_JA」を選択してください。
 
-英語トーク音源→英語ソング音源はうまくいきます（例：弦巻マキトークEnglish→IAソングEnglish）。
+
+英語トーク音源→英語ソング音源はうまくいきます（例：弦巻マキトークEnglish→IAソングEnglish）。この場合は「PHONEME」を選択してください。
 
 [YouTube video player](https://www.youtube.com/embed/XknZFUlhMWE ':include :type=iframe width=560px height=315px allowfullscreen')
 
