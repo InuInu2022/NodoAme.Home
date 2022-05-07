@@ -61,9 +61,9 @@
     - [v0.3.0 alpha-11で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)
   - ウソ英語機能
     - CeVIO AI トーク弦巻マキEnglishが必要です！
-    - [v0.3.0 alpha-16で対応！]
+    - [v0.3.0 alpha-16で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.16)
   - セリフの秒数表示機能
-    - [v0.3.0 alpha-20で対応！]
+    - [v0.3.0 alpha-20で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.20)
 
 </details>
 
