@@ -61,6 +61,9 @@
     - [v0.3.0 alpha-11で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)
   - ウソ英語機能
     - CeVIO AI トーク弦巻マキEnglishが必要です！
+    - [v0.3.0 alpha-16で対応！]
+  - セリフの秒数表示機能
+    - [v0.3.0 alpha-20で対応！]
 
 </details>
 
@@ -476,6 +479,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] CeVIOトークの感情合成対応
   - [x] [VOICEVOX](https://voicevox.hiroshiba.jp/)のパラメータ対応
   - [ ] [COEIROINK](https://coeiroink.com/)への対応
+  - [ ] A.I.VOICE への対応
   - [ ] セリフごとのパラメータに対応
   - [ ] 台本テキストの読み込み
 - 出力
