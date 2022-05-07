@@ -118,11 +118,9 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!ATTENTION]
-> CeVIO Pro（仮）のver.0.4からはCCS/CCSTファイルがインポートできるのですが、音素の再現にバグがあるようでセリフによっては上手く喋れません。
-> tssprjに対応したバージョンを先行で公開しています（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)）。こちらはちゃんと喋れます。
+> CeVIO Pro（仮）のtssprjに対応したバージョンを先行で公開しています（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)）。
 
 - CeVIO Pro（仮）
-  - 知声（ccs出力）（v0.3先行対応版で対応。バグがあるので削除予定）
   - 知声（tssprj出力）（v0.3先行対応版で対応。オススメ）
 
 [YouTube video player](https://www.youtube.com/embed/NkF28iJwhxQ ':include :type=iframe width=560px height=315px allowfullscreen')
@@ -479,7 +477,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] CeVIOトークの感情合成対応
   - [x] [VOICEVOX](https://voicevox.hiroshiba.jp/)のパラメータ対応
   - [ ] [COEIROINK](https://coeiroink.com/)への対応
-  - [ ] A.I.VOICE への対応
+  - [ ] [A.I.VOICE](https://aivoice.jp/) への対応
   - [ ] セリフごとのパラメータに対応
   - [ ] 台本テキストの読み込み
 - 出力
@@ -497,6 +495,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [ ] CeVIOの読み込み時のダイアログ抑制
   - [ ] 出力音声の前後無音部分クリッピング
   - [x] ブレスOFF、ブレス抑制機能
+  - [ ] [NEUTRINO](https://n3utrino.work/)への対応
 - 保存
   - [x] オプションの設定保存に対応
   - [ ] セリフやパラメータの保存(プロジェクトファイル)に対応
@@ -578,11 +577,14 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
   - VOICEVOX
 - 対応予定トークソフト
   - COEIROINK
+- 検討中トークソフト
+  - A.I.VOICE
 
 #### それ以外のトークソフト対応について :id=other_talk_soft
 
-CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。A.I.VOICEはAPIが公開されたのですが、そのままではやはり利用したい情報がとれず、再考中です。
+CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。
 LMROIDはAPIがあるのですがCOEIROINKとおなじでタイミング情報がとれません。
+A.I.VOICEはAPIが公開されたのですが、そのままではやはり利用したい情報がとれず、再考中です。ただし、labファイル出力に対応したのでやり方を検討注です。
 
 考えてるアイディアがうまく行けば、VOICEROIDや生声音声もうまくいくかもしれません。ただし、精度は落ちるかもです…。
 
