@@ -55,7 +55,7 @@
   - CeVIOトークの感情合成対応
     - [v0.3.0 alpha-14で対応!](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.14)
   - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）、キズナちゃん、戸山香澄ちゃん、湊友希那ちゃん、Ci flowerちゃん、裏命（RIME）ちゃん仮対応
-  - CeVIO Pro/知声ちゃん対応
+  - VoiSona (旧:CeVIO Pro)/知声ちゃん対応
     - [v0.3.0 alpha-10で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.10)
   - 息継ぎブレス音抑制機能
     - [v0.3.0 alpha-11で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)
@@ -69,7 +69,7 @@
 
 > [!NOTE]
 > ニコニコ動画などでこのツールを使った動画などを公開する場合は、以下のニコニコモンズをコンテンツツリーに登録して下さい！（義務ではありません）
-> 
+>
 > [nc262424](https://commons.nicovideo.jp/material/nc262424)
 
 ## __mdi:arm-flex__ できること :id=main_purpose
@@ -83,7 +83,7 @@ NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネ�
 
 - [CeVIO AI](https://cevio.jp/)
 - [CeVIO Creative Studio 7](https://cevio.jp/product/ccs/)
-- [VOICEVOX](https://voicevox.hiroshiba.jp/) 
+- [VOICEVOX](https://voicevox.hiroshiba.jp/)
 - 標準音声
 
 CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音源**や、無料の**VOICEVOX**などの対応他ソフトのトーク音源が使えます。
@@ -118,10 +118,10 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!ATTENTION]
-> CeVIO Pro（仮）のtssprjに対応したバージョンを先行で公開しています（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)）。
+> VoiSona（旧：CeVIO Pro（仮））のtssprjに対応したバージョンを先行で公開しています（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)）。
 
-- CeVIO Pro（仮）
-  - 知声（tssprj出力）（v0.3先行対応版で対応。オススメ）
+- VoiSona（旧：CeVIO Pro（仮））
+  - 知声（tssprj出力）（v0.3先行対応版で対応）
 
 [YouTube video player](https://www.youtube.com/embed/NkF28iJwhxQ ':include :type=iframe width=560px height=315px allowfullscreen')
 
@@ -195,7 +195,7 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 ### ゼッタイ必要 :id=must_requirements
 
 - Windows 10以降
-- CeVIO AI または CS または Pro ソングエディター＆ボイス
+- CeVIO AI または CS または VoiSona ソングエディター＆ボイス
 - .NET Framework 4.8
   - ※CeVIOが動く場合はもう入ってます！
 
@@ -241,8 +241,9 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
    1. 最初の設定では自動でCeVIOが起動すると思います
    2. いくつかダイアログがでますがそのまま進めてください
    3. トラックはミュート状態になってますのでソロに切り替えて再生してください
+   4. VoiSona（旧：CeVIO Pro）はtssprj形式です
 9.  いい感じにしゃべっていたら、「ソングのwav書き出し」でトラック毎に保存してください！
-   1. ファイル名がそのままセリフになるので、[Aviutl+かんしくん](https://oov.github.io/aviutl_psdtoolkit/forcepser.html)や[YMM4のカスタムボイス](https://manjubox.net/ymm4/faq/%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A%E3%83%9C%E3%82%A4%E3%82%B9/%E5%A4%96%E9%83%A8%E3%81%AE%E9%9F%B3%E5%A3%B0%E5%90%88%E6%88%90%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84/)で自動で取り込むことができます
+   5. ファイル名がそのままセリフになるので、[Aviutl+かんしくん](https://oov.github.io/aviutl_psdtoolkit/forcepser.html)や[YMM4のカスタムボイス](https://manjubox.net/ymm4/faq/%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A%E3%83%9C%E3%82%A4%E3%82%B9/%E5%A4%96%E9%83%A8%E3%81%AE%E9%9F%B3%E5%A3%B0%E5%90%88%E6%88%90%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84/)で自動で取り込むことができます
 
 > [!TIP]
 > 楽譜データ、といってますが、実は楽譜（ノート）情報はあまりつかっていません。開いてみるとわかります。
@@ -278,7 +279,7 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 > [!TIP]
 > NodoAmeをつかって動画をつくってみよう！
 > キャラクターがセリフに合わせて口パクしてくれる動画はカンタンに作れます！
-> 
+>
 > ↓みたいなゲーム実況動画とかが作れます！
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z06983dVjng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -294,7 +295,7 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 > [!NOTE]
 > いぬいぬのオススメはYMM4です！
-> 
+>
 > NodoAmeを使うときは「 [カスタムボイス機能](https://manjubox.net/ymm4/faq/%E3%82%86%E3%81%A3%E3%81%8F%E3%82%8A%E3%83%9C%E3%82%A4%E3%82%B9/%E5%A4%96%E9%83%A8%E3%81%AE%E9%9F%B3%E5%A3%B0%E5%90%88%E6%88%90%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%B3%E3%81%A7%E4%BD%9C%E6%88%90%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84/)」を使います！
 
 [YMM4+CeVIO解説](https://www.youtube.com/embed/TlqFEtxLsPE ':include :type=iframe width=560px height=315px allowfullscreen')
@@ -485,7 +486,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] 母音無声化 出力対応
   - [x] カレーうどんをすする 出力対応
   - [x] CeVIO CSソング対応改善
-  - [x] CeVIO Pro（tssprj）出力対応
+  - [x] VoiSona（旧：CeVIO Pro（tssprj））出力対応
   - [ ] 「ん」の使い分け 出力対応
   - [ ] 「が」の使い分け 出力対応
   - [x] セリフファイル出力
@@ -643,6 +644,8 @@ NodoAmeはCeVIOが普通にインストールされてる前提になってま�
 かきかえたら保存して、NodoAmeをもう一度起動してみてください！
 CeVIO CSもおんなじ感じでできます。
 
+`NodoAme.Settings.json`が上書き禁止になっているときは、ファイルを選んで右クリック→プロパティから上書きOKに設定して下さい。
+
 > [!ATTENTION]
 ちなみに、今は上書きインストールすると消えちゃいます！
 アップデートのときは上書きインストールしたあとにもう一度設定書き換えてください！
@@ -749,9 +752,12 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.0 alpha-23 : VoiSona対応
+- ver. 0.3.0 alpha-20 : セリフ秒数表示機能追加
+- ver. 0.3.0 alpha-16 : ウソ英語機能追加
 - ver. 0.3.0 alpha-14 : CeVIOトーク 感情合成機能対応
 - ver. 0.3.0 alpha-11 : 息継ぎブレス抑制機能追加 先行公開
-- ver. 0.3.0 alpha-10 : CeVIO Pro tssprj対応 先行公開
+- ver. 0.3.0 alpha-10 : VoiSona (旧:CeVIO Pro)tssprj対応 先行公開
 - ver. 0.2.0 : バージョンアップ
   - いっぱい対応
   - CeVIO CSソング対応改善
