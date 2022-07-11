@@ -668,10 +668,10 @@ CeVIOトークはCeVIOソングとは別物で、トークエディタとトー�
 >演技指導を「標準トーク」の「標準女声」、しゃべるボイスを「CeVIO AIソング」の「可不」にする場合
 >
 >![talk_soft_example](_media/screenshot/nodoame_tokksoft_example.png)
->左上のプルダウン：
-  「標準トーク」「標準女声」「普通」
->右上のプルダウン：
-  「CeVIO AI KAFU」「PHONEME」
+>- 左上のプルダウン：
+>    -「標準トーク」「標準女声」「普通」
+>- 右上のプルダウン：
+>    -「CeVIO AI KAFU」「PHONEME」
 
 
 
