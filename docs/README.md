@@ -777,6 +777,7 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.0 alpha-29 : CSでもカレーうどんをすすれるように
 - ver. 0.3.0 alpha-28 : 「カレーうどんをすする」改良
 - ver. 0.3.0 alpha-27 : ソング感情暫定対応
 - ver. 0.3.0 alpha-25 : アイコン追加、POPY・ROSE対応
