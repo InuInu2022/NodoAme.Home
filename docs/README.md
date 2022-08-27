@@ -326,6 +326,9 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [【立ち絵】知声](https://ext.seiga.nicovideo.jp/thumb/im10906631 ':include :type=iframe width=312px height=176px scrolling=no')
 
+[しらたまボイチェビガイ素材つめあわせ](https://ext.seiga.nicovideo.jp/thumb/im10716050 ':include :type=iframe width=312px height=176px scrolling=no')
+
+
 
 > [!NOTE]
 > YMM4で使うためには少し素材の書き出し方に工夫が必要です。
