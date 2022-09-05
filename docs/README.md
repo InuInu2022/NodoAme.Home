@@ -7,6 +7,19 @@
 
 ## お知らせ
 
+
+! [!ATTENSION]
+>【超重要】いぬいぬのニセモノがいるみたいです！(2022-09-05)
+>
+> Qiitaとbowlrollのアカウントはわたし（@InuInuGames）じゃないです！！！！
+> bowlrollの誘導先で配布されていたものは正式なNodoAmeじゃありません！
+> **絶対にダウンロードしないでください！**
+> 予備のbowlrollからの配布は終了しました。
+
+記事のダウンロードリンク、【ニセモノ】です。
+ウイルスとか入っている可能性があるので
+【絶対にダウンロードしないで】ください！
+
 > [!Note]
 > ニコニコ動画の公式放送「[ソフトウェアトーク動画投稿祭応援しまくる祭](https://live.nicovideo.jp/watch/lv336019216#32:11)」でご紹介いただきました。
 
@@ -46,7 +59,6 @@
 <a href="${assets[0].browser_download_url}" class="download"><span class="iconify-inline" data-icon="bx:bxs-cloud-download"></span> 最新版 ${tag_name}<br> ダウンロード</a>
 
 - [過去のバージョン/先行公開版一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases)
-- ※予備 [bowlroll](https://bowlroll.net/file/269946) pass:カレーうどん
 
 <details id="next-version" style="margin:1em 0;margin:1.5em;">
 <summary>次期バージョンの予定</summary>
