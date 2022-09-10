@@ -65,20 +65,8 @@ bowlrollの誘導先で配布されていたものは正式なNodoAmeじゃあ�
 <details id="next-version" style="margin:1em 0;margin:1.5em;">
 <summary>次期バージョンの予定</summary>
 
-- v0.3.0 では次を予定しているよ！
-  - CeVIOトークの感情合成対応
-    - [v0.3.0 alpha-14で対応!](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.14)
-  - 星界（SEKAI）ちゃん、つづみちゃん（AIソング）、キズナちゃん、POPYちゃん、ROSEちゃん、Ci flowerちゃん、裏命（RIME）ちゃん仮対応
-  - VoiSona (旧:CeVIO Pro)/知声ちゃん対応
-    - [v0.3.0 alpha-10で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.10)
-    - ただし、VoiSona側にバグがあるようで上手くいかないパターンがあります
-  - 息継ぎブレス音抑制機能
-    - [v0.3.0 alpha-11で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)
-  - ウソ英語機能
-    - CeVIO AI トーク弦巻マキEnglishが必要です！
-    - [v0.3.0 alpha-16で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.16)
-  - セリフの秒数表示機能
-    - [v0.3.0 alpha-20で対応！](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.20)
+- 音声ファイル＋タイミングファイルからの入力対応
+- セリフごとの設定
 
 </details>
 
@@ -116,28 +104,21 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 東北ずん子
   - 東北イタコ
   - 星界（SEKAI）
+  - #kzn
+  - すずきつづみ
+- VoiSona
+  - 知声
+  - さとうささら
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
   - Color Voice Series
-  - IA
   - OИE
-
-> [!NOTE]
-> CeVIO AI すずきつづみソング、キズナ(#KZN)、POPY、ROSE、Ci flower、裏命(RIME)も対応予定です。
-> また、VoiSona / CeVIO Pro知声(Chis-A)も対応予定です（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)）。
-
-> [!ATTENTION]
-> ※CeVIO Creative StudioのIA English C向けソング音源は出力できますが、発音がおかしくなると思います。
-
-- CeVIO Creative Studio 7
   - IA English C (Natural / Powerful)
 
-> [!ATTENTION]
-> VoiSona（旧：CeVIO Pro（仮））のtssprjに対応したバージョンを先行で公開しています（[先行対応版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)）。
+> [!NOTE]
+> CeVIO AIのPOPY、ROSE、Ci flower、裏命(RIME)、狐子（COKO）、羽累（HARU）、双葉湊音も対応予定です。
 
-- VoiSona（旧：CeVIO Pro（仮））
-  - 知声（tssprj出力）（v0.3先行対応版で対応）
 
 [YouTube video player](https://www.youtube.com/embed/NkF28iJwhxQ ':include :type=iframe width=560px height=315px allowfullscreen')
 
@@ -211,7 +192,10 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 ### ゼッタイ必要 :id=must_requirements
 
 - Windows 10以降
-- CeVIO AI または CS または VoiSona ソングエディター＆ボイス
+- 以下のどれかのソングエディター＆ボイス
+  - CeVIO AI
+  - VoiSona
+  - CeVIO CS
 - .NET Framework 4.8
   - ※CeVIOが動く場合はもう入ってます！
 
@@ -220,6 +204,8 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 - CeVIO AIトークエディター＆ボイス
 - CeVIO CSトークエディター＆ボイス
 - VOICEVOX
+
+演技指導に必要な外部のトークソフトです。なくても内蔵トークがつかえます。
 
 ## __ic:twotone-install-desktop__ インストール :id=how_to_install
 
@@ -597,14 +583,17 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
   - VOICEVOX
 - 対応予定トークソフト
   - COEIROINK
+  - SHAREVOX
 - 検討中トークソフト
   - A.I.VOICE
+  - ITVOICE
 
 #### それ以外のトークソフト対応について :id=other_talk_soft
 
-CoeFontはAPIが公開されているのですが、利用したい情報がとれないっぽいです。
-LMROIDはAPIがあるのですがCOEIROINKとおなじでタイミング情報がとれません。
-A.I.VOICEはAPIが公開されたのですが、そのままではやはり利用したい情報がとれず、再考中です。ただし、labファイル出力に対応したのでやり方を検討注です。
+- **CoeFont**はAPIが公開されているのですが、利用したい情報がとれないっぽいです。
+- **LMROID**はAPIがあるのですがCOEIROINKとおなじでタイミング情報がとれません。
+- **A.I.VOICE**はAPIが公開されたのですが、そのままではやはり利用したい情報がとれず、再考中です。ただし、labファイル出力に対応したのでやり方を検討中です。
+- **ITVOICE**はリリース後に調査します
 
 考えてるアイディアがうまく行けば、VOICEROIDや生声音声もうまくいくかもしれません。ただし、精度は落ちるかもです…。
 
@@ -739,7 +728,7 @@ CeVIOトークはCeVIOソングとは別物で、トークエディタとトー�
 
 ### ❔英語はしゃべらせられますか？ :id=english_speaking
 
-先行公開版（ [v.0.3.0-alpha.16](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.16) ）で、英語のトーク音源（CeVIO AIトーク弦巻マキEnglish）に演技指導してもらうことで、
+先行公開版（ [v.0.3.0-alpha.16](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.16) ）以降で、英語のトーク音源（CeVIO AIトーク弦巻マキEnglish）に演技指導してもらうことで、
 ウソ英語がしゃべれるようになりました。
 
 [YouTube video player](https://www.youtube.com/embed/f2qonxX0YMs ':include :type=iframe width=560px height=315px allowfullscreen')
@@ -757,7 +746,8 @@ CeVIOトークはCeVIOソングとは別物で、トークエディタとトー�
 
 BPMが150固定とか、あとからの手直しにはあまり向いてない方法（PIT/TMG/VOLで再現）なので難しいです。
 
-セリフ全体の長さは一応変更できますが、書き出してみないと長さがわからないですし（リクエストがあれば一応表示できます）、リズムに合わせるほど細かい調声はできません。
+セリフ全体の長さは一応変更できますが、リズムに合わせるほど細かい調声はできません。
+ver.0.3でセリフ秒数表示機能が付きました。
 
 波形データに書き出して、DAW上で加工するならできるかも？
 
@@ -794,6 +784,31 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.0：バージョンアップ
+  - いっぱい対応
+  - VoiSona正式対応 (知声・さとうささら対応済)
+  - UI改良
+    - アイコン表示追加
+    - リストが長くなったのでソングソフトとソングボイスのリストを分割
+  - 対応済ソングボイス(ver.0.2 からの追加)
+    - CeVIO AI: すずきつづみ, #kzn, 星界(SEKAI)
+    - VoiSona: 知声, さとうささら
+  - 暫定対応ソングボイス
+    - 裏命(RIME)
+    - 狐子(COKO)
+    - 羽累(HARU)
+    - POPY
+    - ROSE
+    - Ci flower
+    - 双葉湊音
+  - 機能追加・改良（ver.0.2から）
+    - 演技指導CeVIOトーク感情合成対応
+    - 息継ぎブレス抑制
+    - ウソ英語がしゃべれるように
+    - セリフ秒数表示
+    - CeVIOソング感情パラメータ対応(星界・すずきつづみのみ)
+    - 「ん」の出力音素改良
+    - なか○に行かなくてもうまくカレーうどんがすすれるように改良
 - ver. 0.3.0 alpha-30 : #kzn 対応
 - ver. 0.3.0 alpha-29 : CSでもカレーうどんをすすれるように
 - ver. 0.3.0 alpha-28 : 「カレーうどんをすする」改良
