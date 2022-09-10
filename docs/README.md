@@ -67,6 +67,7 @@ bowlrollの誘導先で配布されていたものは正式なNodoAmeじゃあ�
 
 - 音声ファイル＋タイミングファイルからの入力対応
 - セリフごとの設定
+- ボイパ対応…!?
 
 </details>
 
@@ -84,9 +85,10 @@ NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネ�
 
 現在は次のトーク音源に対応しています。
 
-- [CeVIO AI](https://cevio.jp/)
-- [CeVIO Creative Studio 7](https://cevio.jp/product/ccs/)
+- [CeVIO AI](https://cevio.jp/) トーク
+- [CeVIO Creative Studio 7](https://cevio.jp/product/ccs/) トーク
 - [VOICEVOX](https://voicevox.hiroshiba.jp/)
+- [SHAREVOX](https://www.sharevox.app/)
 - 標準音声
 
 CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音源**や、無料の**VOICEVOX**などの対応他ソフトのトーク音源が使えます。
@@ -177,6 +179,8 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 >   - [CeVIOユーザー互助会](https://w.atwiki.jp/ceviouser/pages/49.html#id_e7e64733)
 > - VOICEVOX
 >   - [公式ページのキャラ紹介](https://voicevox.hiroshiba.jp/)
+> - SHAREVOX
+>   - [公式ページのキャラ紹介](https://www.sharevox.app/characters)
 
 - CeVIOトークの外部連携インターフェイスは商用利用に制限があります
   - [※通常の楽曲・動画制作と同じです](https://cevio.jp/commercial/)
@@ -186,6 +190,7 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 > [!TIP]
 > - CeVIO: [音声データやキャラクターの利用について](https://cevio.jp/commercial/)
 > - VOICEVOX: [利用規約](https://voicevox.hiroshiba.jp/term)
+> - SHAREVOX: [利用規約](https://www.sharevox.app/terms)
 
 ## __bi:patch-check-fill__ ひつようなもの :id=requirements
 
@@ -204,6 +209,7 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 - CeVIO AIトークエディター＆ボイス
 - CeVIO CSトークエディター＆ボイス
 - VOICEVOX
+- SHAREVOX
 
 演技指導に必要な外部のトークソフトです。なくても内蔵トークがつかえます。
 
@@ -484,6 +490,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] [VOICEVOX](https://voicevox.hiroshiba.jp/)のパラメータ対応
   - [ ] [COEIROINK](https://coeiroink.com/)への対応
   - [ ] [A.I.VOICE](https://aivoice.jp/) への対応
+  - [x] [SHAREVOX](https://www.sharevox.app/) への対応
   - [ ] セリフごとのパラメータに対応
   - [ ] 台本テキストの読み込み
 - 出力
@@ -581,9 +588,9 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
   - `htsvoice`形式の音響モデル
 - 対応済みトークソフト
   - VOICEVOX
+  - SHAREVOX
 - 対応予定トークソフト
   - COEIROINK
-  - SHAREVOX
 - 検討中トークソフト
   - A.I.VOICE
   - ITVOICE
