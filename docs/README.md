@@ -334,6 +334,10 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [しらたまボイチェビガイ素材つめあわせ](https://ext.seiga.nicovideo.jp/thumb/im10716050 ':include :type=iframe width=312px height=176px scrolling=no')
 
+[気の抜けた可不立ち絵(PSDToolKit対応)](https://ext.seiga.nicovideo.jp/thumb/im11028486 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[ゆっくり可不_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11037141 ':include :type=iframe width=312px height=176px scrolling=no')
+
 
 
 > [!NOTE]
