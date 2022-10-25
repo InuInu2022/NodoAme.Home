@@ -3,7 +3,7 @@
 > [!Note|iconVisibility:hidden]
 > 最新版：${tag_name}
 
-しゃべるCeVIOソング補助ツール [#喋らせてみた](https://www.google.com/search?q=%23%E5%96%8B%E3%82%89%E3%81%9B%E3%81%A6%E3%81%BF%E3%81%9F)
+しゃべる[CeVIO](https://cevio.jp/)ソング・[VoiSona](https://voisona.com/)補助ツール [#喋らせてみた](https://www.google.com/search?q=%23%E5%96%8B%E3%82%89%E3%81%9B%E3%81%A6%E3%81%BF%E3%81%9F)
 
 ## お知らせ
 
@@ -108,6 +108,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 星界（SEKAI）
   - #kzn
   - すずきつづみ
+  - 裏命(RIME)
 - VoiSona
   - 知声
   - さとうささら
@@ -119,7 +120,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> CeVIO AIのPOPY、ROSE、Ci flower、裏命(RIME)、狐子（COKO）、羽累（HARU）、双葉湊音も対応予定です。
+> CeVIO AIのPOPY、ROSE、Ci flower、狐子（COKO）、羽累（HARU）、双葉湊音も対応予定です。
 
 
 [YouTube video player](https://www.youtube.com/embed/NkF28iJwhxQ ':include :type=iframe width=560px height=315px allowfullscreen')
@@ -237,7 +238,7 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 1. しゃべりを参考にするために、左上のトークソフト、キャラ、感情・スタイル・プリセットを選ぶ
    1. インストールしていないソフトは選んでも動きません
    2. CeVIOトークはトークエディタとトークボイスがインストールされていなければ動きません
-   3. VOICEVOXは事前に起動していてください
+   3. VOICEVOXやSHAREVOXは事前に起動していてください
 2. セリフ入力欄にセリフを入れる
 4. 試聴ボタンを押して、しゃべり方を確認する
    1. お好みでパラメータを変える
@@ -443,7 +444,7 @@ VOLモードにしたうえで、ノート（音符）の前や間の山を線�
 （一番下で線を引けば音はなりません）。
 
 > [!TIP]
-> [先行公開版](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.11)で息継ぎブレス抑制機能を追加しています。
+> バージョン0.3より**ブレス抑制機能**がデフォルトで有効になりました。
 
 [YouTube video player](https://www.youtube.com/embed/kP6wqn2T6Vs ':include :type=iframe width=560px height=315px allowfullscreen')
 
@@ -555,7 +556,7 @@ CeVIOソングも外部インターフェイスがつくように、みんなで
 
 ### ❔CeVIO AI以外のボーカルシンセサイザーには対応していますか？ :id=other_vocal_synth
 
-今の仕組みはおそらくCeVIO CS/AI/Pro（仮）でしかつかえません。
+今の仕組みはおそらくCeVIO CS/AI/VoiSonaでしかつかえません。
 トークロイドでよく使われる楽譜の使い方をしていない為、ccsファイルを変換してもおそらく発音できないと思います。
 
 ※Synthesizer Vはもしかしたら変換すれば動くかも？わかりません！
@@ -566,15 +567,18 @@ NEUTRINOはMusicXMLを経由しなければ意外と簡単にいけるかも？�
 
 ### ❔演技指導のトークソフトはCeVIO以外に対応していますか？ :id=support_talksoft
 
-NodoAmeは [SHABERU](http://akihiro0105.web.fc2.com/Downloads/Downloads-SHABERU.html)/[Open JTalk](https://open-jtalk.sp.nitech.ac.jp/)などで使われるボイス音源（`htsvoice`形式の音響モデル）に対応しています。標準男声はatr503_m001、標準女声はtohoku-f01です。利用する場合はキャラクターのボイス音源のライセンスを確認して下さい。
+**たいおうしていまーーーーーす！！！！！！**
+演技指導はCeVIOなくても動きます！
+
+NodoAmeは [SHABERU](http://akihiro0105.web.fc2.com/Downloads/Downloads-SHABERU.html) / [Open JTalk](https://open-jtalk.sp.nitech.ac.jp/)などで使われるボイス音源（`htsvoice`形式の音響モデル）に対応しています。標準男声はatr503_m001、標準女声はtohoku-f01です。ボイス音源をDLし、`NodoAme.Settings.json`に追記することで利用できます。利用する場合はキャラクターのボイス音源のライセンスを確認して下さい。
 
 - 追加ボイス音源の入手先
   - [SHABERU 追加音響モデル](http://akihiro0105.web.fc2.com/Downloads/Downloads-htsvoice.html)
   - [Open JTalk の音響モデルを試す](https://petile.com/mahoroba/e1875.html)
 
-NodoAmeは無料のトークソフト [VOICEVOX](https://voicevox.hiroshiba.jp/) にも対応しています。
+NodoAmeは無料のトークソフト [VOICEVOX](https://voicevox.hiroshiba.jp/) や [SHAREVOX](https://www.sharevox.app/) にも対応しています。
 
-- **VOICEVOX**
+- **VOICEVOX** / **SHAREVOX**
   - 利用の際はVOICEVOXを先に起動しておいてください
 
 COEIROINKはもしAPIの一部機能が対応したら、対応します。
@@ -588,7 +592,7 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
 ---
 まとめるとこんな感じです。
 
-- 対応済みトーク音源
+- 対応済み内蔵トーク音源
   - `htsvoice`形式の音響モデル
 - 対応済みトークソフト
   - VOICEVOX
@@ -795,6 +799,7 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.1：裏命（RIME）対応
 - ver. 0.3.0：バージョンアップ
   - いっぱい対応
   - VoiSona正式対応 (知声・さとうささら対応済)
