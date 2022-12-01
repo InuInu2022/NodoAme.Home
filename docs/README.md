@@ -109,6 +109,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - #kzn
   - すずきつづみ
   - 裏命(RIME)
+  - 双葉湊音
 - VoiSona
   - 知声
   - さとうささら
@@ -120,7 +121,9 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> CeVIO AIのPOPY、ROSE、Ci flower、狐子（COKO）、羽累（HARU）、双葉湊音も対応予定です。
+> - CeVIO AIのPOPY、ROSE、Ci flower、狐子（COKO）、羽累（HARU）
+> - VoiSonaの機流⾳、AiSuu
+> も対応予定です。
 
 
 [YouTube video player](https://www.youtube.com/embed/NkF28iJwhxQ ':include :type=iframe width=560px height=315px allowfullscreen')
@@ -799,6 +802,7 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.2：双葉湊音 対応
 - ver. 0.3.1：裏命（RIME）対応
 - ver. 0.3.0：バージョンアップ
   - いっぱい対応
