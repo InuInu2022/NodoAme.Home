@@ -344,6 +344,10 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [立ち絵21型 双葉湊音 @110100110101101](https://ext.seiga.nicovideo.jp/thumb/im11083524 ':include :type=iframe width=312px height=176px scrolling=no')
 
+[立ち双葉湊音素材](https://ext.seiga.nicovideo.jp/thumb/im11083984 ':include :type=iframe width=312px height=176px scrolling=no')
+
+
+
 > [!NOTE]
 > YMM4で使うためには少し素材の書き出し方に工夫が必要です。
 > [立ち絵機能](https://manjubox.net/ymm4/faq/%E7%AB%8B%E3%81%A1%E7%B5%B5%E6%A9%9F%E8%83%BD/)
