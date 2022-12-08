@@ -806,6 +806,7 @@ MIT Licenseです。
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.3：不具合対策
 - ver. 0.3.2：双葉湊音 対応
 - ver. 0.3.1：裏命（RIME）対応
 - ver. 0.3.0：バージョンアップ
