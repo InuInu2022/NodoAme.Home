@@ -7,8 +7,6 @@
 
 ## お知らせ
 
-
-
 【超重要】いぬいぬのニセモノがいるみたいです！(2022-09-05)
 
 Qiitaとbowlrollのアカウントはわたし（@InuInuGames）じゃないです！！！！
@@ -113,6 +111,8 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
 - VoiSona
   - 知声
   - さとうささら
+  - 機流音(Kirune)
+  - AiSuu
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -122,7 +122,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
 
 > [!NOTE]
 > - CeVIO AIのPOPY、ROSE、Ci flower、狐子（COKO）、羽累（HARU）
-> - VoiSonaの機流⾳、AiSuu
+> - VoiSonaの知声（en)
 > も対応予定です。
 
 
@@ -2027,6 +2027,7 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.4：機流音、AiSuu 対応
 - ver. 0.3.3：さらに不具合対策
 - ver. 0.3.3：不具合対策
 - ver. 0.3.2：双葉湊音 対応
