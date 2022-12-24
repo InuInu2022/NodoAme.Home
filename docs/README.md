@@ -108,6 +108,8 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - すずきつづみ
   - 裏命(RIME)
   - 双葉湊音
+  - POPY
+  - ROSE
 - VoiSona
   - 知声
   - さとうささら
@@ -121,7 +123,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> - CeVIO AIのPOPY、ROSE、Ci flower、狐子（COKO）、羽累（HARU）
+> - CeVIO AIのCi flower、狐子（COKO）、羽累（HARU）
 > - VoiSonaの知声（en)
 > も対応予定です。
 
@@ -608,7 +610,6 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
   - COEIROINK
 - 検討中トークソフト
   - A.I.VOICE
-  - ITVOICE
 
 #### それ以外のトークソフト対応について :id=other_talk_soft
 
@@ -2026,6 +2027,7 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.3.5：POPY, ROSE 対応
 - ver. 0.3.4：機流音、AiSuu 対応
 - ver. 0.3.3：さらに不具合対策
 - ver. 0.3.3：不具合対策
