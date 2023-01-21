@@ -348,6 +348,7 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [立ち双葉湊音素材](https://ext.seiga.nicovideo.jp/thumb/im11083984 ':include :type=iframe width=312px height=176px scrolling=no')
 
+
 [双葉湊音の立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11114797 ':include :type=iframe width=312px height=176px scrolling=no')
 
 > [!NOTE]
