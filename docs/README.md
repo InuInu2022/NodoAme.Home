@@ -326,7 +326,7 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 > YMM4で使うためには少し素材の書き出し方に工夫が必要です。
 > [立ち絵機能](https://manjubox.net/ymm4/faq/%E7%AB%8B%E3%81%A1%E7%B5%B5%E6%A9%9F%E8%83%BD/)
 
-#### 可不 #id=tachie_kafu
+#### 可不 :id=tachie_kafu
 
 [ちぇびおで音楽的同位体な可不たん立ち絵var1.0](https://ext.seiga.nicovideo.jp/thumb/im10864398 ':include :type=iframe width=312px height=176px scrolling=no')
 
@@ -350,11 +350,11 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [SD可不_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115658 ':include :type=iframe width=312px height=176px scrolling=no')
 
-#### 知声 #id=tachie_chis-a
+#### 知声 :id=tachie_chis-a
 
 [【立ち絵】知声](https://ext.seiga.nicovideo.jp/thumb/im10906631 ':include :type=iframe width=312px height=176px scrolling=no')
 
-#### 双葉湊音 #id=tachie_futabaminato
+#### 双葉湊音 :id=tachie_futabaminato
 
 [立ち絵21型 双葉湊音 @110100110101101](https://ext.seiga.nicovideo.jp/thumb/im11083524 ':include :type=iframe width=312px height=176px scrolling=no')
 
@@ -362,7 +362,7 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [双葉湊音の立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11114797 ':include :type=iframe width=312px height=176px scrolling=no')
 
-#### 星界 #id=tachie_sekai
+#### 星界 :id=tachie_sekai
 
 [SD星界_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115661 ':include :type=iframe width=312px height=176px scrolling=no')
 
