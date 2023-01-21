@@ -322,6 +322,12 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 例： [ニコニコ静画で「可不 立ち絵」で検索](https://seiga.nicovideo.jp/search/%E5%8F%AF%E4%B8%8D%20%E7%AB%8B%E3%81%A1%E7%B5%B5?target=illust&track=seiga_illust_keyword)
 
+> [!NOTE]
+> YMM4で使うためには少し素材の書き出し方に工夫が必要です。
+> [立ち絵機能](https://manjubox.net/ymm4/faq/%E7%AB%8B%E3%81%A1%E7%B5%B5%E6%A9%9F%E8%83%BD/)
+
+#### 可不 #id=tachie_kafu
+
 [ちぇびおで音楽的同位体な可不たん立ち絵var1.0](https://ext.seiga.nicovideo.jp/thumb/im10864398 ':include :type=iframe width=312px height=176px scrolling=no')
 
 [可不　立ち絵](https://ext.seiga.nicovideo.jp/thumb/im10775264 ':include :type=iframe width=312px height=176px scrolling=no')
@@ -336,24 +342,29 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [デフォルメ立ち絵 いいね押し忘れ防止ver.](https://ext.seiga.nicovideo.jp/thumb/im10809604 ':include :type=iframe width=312px height=176px scrolling=no')
 
-[【立ち絵】知声](https://ext.seiga.nicovideo.jp/thumb/im10906631 ':include :type=iframe width=312px height=176px scrolling=no')
-
 [しらたまボイチェビガイ素材つめあわせ](https://ext.seiga.nicovideo.jp/thumb/im10716050 ':include :type=iframe width=312px height=176px scrolling=no')
 
 [気の抜けた可不立ち絵(PSDToolKit対応)](https://ext.seiga.nicovideo.jp/thumb/im11028486 ':include :type=iframe width=312px height=176px scrolling=no')
 
 [ゆっくり可不_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11037141 ':include :type=iframe width=312px height=176px scrolling=no')
 
+[SD可不_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115658 ':include :type=iframe width=312px height=176px scrolling=no')
+
+#### 知声 #id=tachie_chis-a
+
+[【立ち絵】知声](https://ext.seiga.nicovideo.jp/thumb/im10906631 ':include :type=iframe width=312px height=176px scrolling=no')
+
+#### 双葉湊音 #id=tachie_futabaminato
+
 [立ち絵21型 双葉湊音 @110100110101101](https://ext.seiga.nicovideo.jp/thumb/im11083524 ':include :type=iframe width=312px height=176px scrolling=no')
 
 [立ち双葉湊音素材](https://ext.seiga.nicovideo.jp/thumb/im11083984 ':include :type=iframe width=312px height=176px scrolling=no')
 
-
 [双葉湊音の立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11114797 ':include :type=iframe width=312px height=176px scrolling=no')
 
-> [!NOTE]
-> YMM4で使うためには少し素材の書き出し方に工夫が必要です。
-> [立ち絵機能](https://manjubox.net/ymm4/faq/%E7%AB%8B%E3%81%A1%E7%B5%B5%E6%A9%9F%E8%83%BD/)
+#### 星界 #id=tachie_sekai
+
+[SD星界_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115661 ':include :type=iframe width=312px height=176px scrolling=no')
 
 ## ⚠プロトタイプ版の制限 :id=not_support_on_prototype
 
