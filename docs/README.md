@@ -362,6 +362,8 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [双葉湊音の立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11114797 ':include :type=iframe width=312px height=176px scrolling=no')
 
+[立ち絵22型 双葉湊音 @110100110101101](https://ext.seiga.nicovideo.jp/thumb/im11116538 ':include :type=iframe width=312px height=176px scrolling=no')
+
 #### 星界 :id=tachie_sekai
 
 [SD星界_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115661 ':include :type=iframe width=312px height=176px scrolling=no')
