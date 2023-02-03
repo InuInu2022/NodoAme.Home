@@ -2048,7 +2048,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0-alpha.58 : 従来の文節単位の問題が起きる場合を修正したSPLIT_SILENTNOTEモード追加、キャスト毎に分割単位を設定できるように
 - ver. 0.4.0-alpha.40 : 狐子（COKO） 対応
+- ver. 0.3.5：狐子（COKO） 対応
 - ver. 0.4.0-alpha.36 : 音節単位ノート分割機能試験搭載
 - ver. 0.3.5：POPY, ROSE 対応
 - ver. 0.3.4：機流音、AiSuu 対応
