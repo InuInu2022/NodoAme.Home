@@ -2048,6 +2048,7 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0-alpha.66 : 強弱指定(Dynamics)オプション追加
 - ver. 0.4.0-alpha.64 : デフォルトpitch削除機能、無声母音オプション追加
 - ver. 0.4.0-alpha.58 : 従来の文節単位の問題が起きる場合を修正したSPLIT_SILENTNOTEモード追加、キャスト毎に分割単位を設定できるように
 - ver. 0.4.0-alpha.40 : 狐子（COKO） 対応
