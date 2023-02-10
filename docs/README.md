@@ -2048,6 +2048,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.87 :
+  - 音声ファイル＋labファイルを演技指導にする機能追加
+  - 知声English 暫定追加
 - ver. 0.4.0 alpha.67 : テンポ指定オプション追加
 - ver. 0.4.0-alpha.66 : 強弱指定(Dynamics)オプション追加
 - ver. 0.4.0-alpha.64 : デフォルトpitch削除機能、無声母音オプション追加
