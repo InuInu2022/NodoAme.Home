@@ -361,6 +361,8 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [【立ち絵】知声](https://ext.seiga.nicovideo.jp/thumb/im10906631 ':include :type=iframe width=312px height=176px scrolling=no')
 
+[爪楊枝式 知声(Chis-A)立ち絵](https://ext.seiga.nicovideo.jp/thumb/im11133852 ':include :type=iframe width=312px height=176px scrolling=no')
+
 #### 双葉湊音 :id=tachie_futabaminato
 
 [立ち絵21型 双葉湊音 @110100110101101](https://ext.seiga.nicovideo.jp/thumb/im11083524 ':include :type=iframe width=312px height=176px scrolling=no')
@@ -600,16 +602,22 @@ NEUTRINOはMusicXMLを経由しなければ意外と簡単にいけるかも？�
 **たいおうしていまーーーーーす！！！！！！**
 演技指導はCeVIOなくても動きます！
 
+### SHABERU / OpenJTalk
+
 NodoAmeは [SHABERU](http://akihiro0105.web.fc2.com/Downloads/Downloads-SHABERU.html) / [Open JTalk](https://open-jtalk.sp.nitech.ac.jp/)などで使われるボイス音源（`htsvoice`形式の音響モデル）に対応しています。標準男声はatr503_m001、標準女声はtohoku-f01です。ボイス音源をDLし、`NodoAme.Settings.json`に追記することで利用できます。利用する場合はキャラクターのボイス音源のライセンスを確認して下さい。
 
 - 追加ボイス音源の入手先
   - [SHABERU 追加音響モデル](http://akihiro0105.web.fc2.com/Downloads/Downloads-htsvoice.html)
   - [Open JTalk の音響モデルを試す](https://petile.com/mahoroba/e1875.html)
 
+### VOICEVOX / SHAREVOX
+
 NodoAmeは無料のトークソフト [VOICEVOX](https://voicevox.hiroshiba.jp/) や [SHAREVOX](https://www.sharevox.app/) にも対応しています。
 
 - **VOICEVOX** / **SHAREVOX**
   - 利用の際はVOICEVOXを先に起動しておいてください
+
+### 他
 
 COEIROINKはもしAPIの一部機能が対応したら、対応します。
 
@@ -618,8 +626,15 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
     - ※音素表示と視聴は対応済。
   - 利用の際はCOEIROINKを先に起動しておいてください
 
+### 先行公開版
 
----
+v0.4 先行公開版で、音声ファイルとタイミング情報ファイル(.lab)があれば、どんなトークソフトでも演技指導に使えるようになりました。
+
+原理的には生声でもいけます。
+wav2labというソフトを使えばタイミング情報ファイルも作れますが、大変です。
+
+### 対応まとめ
+
 まとめるとこんな感じです。
 
 - 対応済み内蔵トーク音源
