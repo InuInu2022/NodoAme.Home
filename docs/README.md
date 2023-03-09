@@ -117,11 +117,14 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 双葉湊音
   - POPY
   - ROSE
+  - 狐子（COKO）
+  - Ci flower
 - VoiSona
   - 知声
   - さとうささら
   - 機流音(Kirune)
   - AiSuu
+  - 知声English
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -130,8 +133,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> - CeVIO AIのCi flower、狐子（COKO）、羽累（HARU）
-> - VoiSonaの知声（en)
+> - CeVIO AIの羽累（HARU）, 奏兎める
 > も対応予定です。
 
 
@@ -2063,6 +2065,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.91 :
+  - CeVIO AI Ci flower対応
+  - VoiSona 知声English対応
 - ver. 0.4.0 alpha.87 :
   - 音声ファイル＋labファイルを演技指導にする機能追加
   - 知声English 暫定追加
