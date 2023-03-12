@@ -2065,6 +2065,7 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.92 : カレーうどん花譜ちゃんしかすすれなくなってたので修正
 - ver. 0.4.0 alpha.91 :
   - CeVIO AI Ci flower対応
   - VoiSona 知声English対応
