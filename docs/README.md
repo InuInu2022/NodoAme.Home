@@ -793,12 +793,18 @@ CeVIOトークはCeVIOソングとは別物で、トークエディタとトー�
 先行公開版（ [v.0.3.0-alpha.16](https://github.com/InuInu2022/NodoAme.Home/releases/tag/v.0.3.0-alpha.16) ）以降で、英語のトーク音源（CeVIO AIトーク弦巻マキEnglish）に演技指導してもらうことで、
 ウソ英語がしゃべれるようになりました。
 
+By having the English talk sound source (CeVIO AI Talk Maki Tsurumaki English) instruct you on acting after the prior release version (v.0.3.0-alpha.16),
+NodoAme can now be made to speak (psudo) English.
+
 [YouTube video player](https://www.youtube.com/embed/f2qonxX0YMs ':include :type=iframe width=560px height=315px allowfullscreen')
 
 「EN_TO_JA」を選択してください。
 
+Please select "EN_TO_JA".
 
 英語トーク音源→英語ソング音源はうまくいきます（例：弦巻マキトークEnglish→IAソングEnglish）。この場合は「PHONEME」を選択してください。
+
+English talk sound source -> English song sound source works well (e.g., Maki Tsurumaki talk English -> IA song English). In this case, please select "PHONEME".
 
 [YouTube video player](https://www.youtube.com/embed/XknZFUlhMWE ':include :type=iframe width=560px height=315px allowfullscreen')
 
@@ -828,6 +834,41 @@ CeVIO Creative Studioなら[CevioTalkSync](https://www.nicovideo.jp/watch/sm3741
 いまのところできません！
 
 ソングに比べると、指定できるパラメータがすくなかったり、ざっくりだったりして、再現が難しそうです…。
+
+
+### ❔English UI support? :id=english_support
+
+v0.4.0-alpha.105 より、英語UIに対応しました。
+オプション ＞ その他 の Language で変更できます。
+演技指導でCeVIOトークを使う場合は、CeVIOのUIの言語を英語に変更しておいてください。
+
+English UI is supported from v0.4.0-alpha.105.
+You can change the language in Options > Other options > Language.
+If you use CeVIO Talk for talk performance instruction, please change the language of CeVIO UI to English.
+
+![english ui screenshot](./_media/screenshot/nodoame_english_ui.png)
+
+翻訳やつづりが間違っているときは[Github Issues](https://github.com/InuInu2022/NodoAme.Home)などで連絡ください。
+また、`dic/strings.loc.yaml` を開いて書き換えることでも修正できます。
+英語・日本語以外の言語もここに加えることで対応できます。
+
+Please contact me via [Github Issues](https://github.com/InuInu2022/NodoAme.Home) or other means if the translation or spelling is incorrect.
+You can also open `dic/strings.loc.yaml` and rewrite it.
+Languages other than English and Japanese can also be supported by adding them here.
+
+```yaml
+LanguageName:
+    en: English
+    ja: 日本語
+    xx: your added language
+
+Talk:
+    Engine:
+        標準トーク:
+            ja: 標準トーク
+            en: Std talk
+            xx: your awesome translation
+```
 
 ## __tabler:license__ ライセンス :id=licenses
 
@@ -2067,6 +2108,7 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.105 : English UI対応
 - ver. 0.4.0 alpha.92 : カレーうどん花譜ちゃんしかすすれなくなってたので修正
 - ver. 0.4.0 alpha.91 :
   - CeVIO AI Ci flower対応
