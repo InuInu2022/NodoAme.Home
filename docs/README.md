@@ -119,12 +119,14 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - ROSE
   - 狐子（COKO）
   - Ci flower
+  - 奏兎める
 - VoiSona
   - 知声
   - さとうささら
   - 機流音(Kirune)
   - AiSuu
   - 知声English
+  - #kzn
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -133,7 +135,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> - CeVIO AIの羽累（HARU）, 奏兎める
+> - CeVIO AIの羽累（HARU）
 > も対応予定です。
 
 
@@ -2108,6 +2110,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.106 :
+  - CeVIO AI 奏兎める 対応
+  - VoiSona #kzn 対応
 - ver. 0.4.0 alpha.105 : English UI対応
 - ver. 0.4.0 alpha.92 : カレーうどん花譜ちゃんしかすすれなくなってたので修正
 - ver. 0.4.0 alpha.91 :
