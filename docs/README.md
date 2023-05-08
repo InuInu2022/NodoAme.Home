@@ -2110,6 +2110,8 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.107 :
+  - CeVIO AI 8.5対策として`SPLIT_ONLY_OLD`にデフォルトを戻した
 - ver. 0.4.0 alpha.106 :
   - CeVIO AI 奏兎める 対応
   - VoiSona #kzn 対応
