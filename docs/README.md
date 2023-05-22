@@ -2110,7 +2110,10 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
-- ver. 0.4.0 alpha.107 :
+- vet. 0.4.0 alpha.112 :
+  - VoiSona 結月ゆかり麗 対応
+  - CeVIO AI 8.5対策がバグってた
+- ver. 0.4.0 alpha.108 :
   - CeVIO AI 8.5対策として`SPLIT_ONLY_OLD`にデフォルトを戻した
 - ver. 0.4.0 alpha.106 :
   - CeVIO AI 奏兎める 対応
