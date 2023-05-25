@@ -2110,7 +2110,10 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
-- vet. 0.4.0 alpha.112 :
+- ver. 0.4.0 alpha.120 :
+  - 声質・ハスキー出力対応（CeVIO CS/AIのみ)
+  - VoiSonaにccst / tssprj出力選択できる機能追加
+- ver. 0.4.0 alpha.112 :
   - VoiSona 結月ゆかり麗 対応
   - CeVIO AI 8.5対策がバグってた
 - ver. 0.4.0 alpha.108 :
