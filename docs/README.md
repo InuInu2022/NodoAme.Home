@@ -363,7 +363,7 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [音楽的同位体 可不 立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115658 ':include :type=iframe width=312px height=176px scrolling=no')
 
-[可不の立ち絵的なもの](https://piapro.jp/t/o4Nm ':include :type=iframe width=312px height=176px scrolling=no')
+[可不の立ち絵的なもの](https://cdn.piapro.jp/thumb_i/2i/2ip52r6f6i49unxn_20230212221302_0500_0500.jpg ':include :type=iframe width=312px height=176px scrolling=no')
 
 #### 知声 :id=tachie_chis-a
 
