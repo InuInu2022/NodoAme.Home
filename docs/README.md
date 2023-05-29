@@ -359,7 +359,11 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 
 [ゆっくり可不_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11037141 ':include :type=iframe width=312px height=176px scrolling=no')
 
-[SD可不_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115658 ':include :type=iframe width=312px height=176px scrolling=no')
+[SD可不_立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11198701 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[音楽的同位体 可不 立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11115658 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[可不の立ち絵的なもの](https://piapro.jp/t/o4Nm ':include :type=iframe width=312px height=176px scrolling=no')
 
 #### 知声 :id=tachie_chis-a
 
@@ -378,6 +382,8 @@ NodoAmeのつかいかたです。まずは[紹介動画](#movies)をみてね�
 [立ち絵22型 双葉湊音 @110100110101101](https://ext.seiga.nicovideo.jp/thumb/im11116538 ':include :type=iframe width=312px height=176px scrolling=no')
 
 [双葉湊音(ふたば みなと)公式立ち絵](https://ext.seiga.nicovideo.jp/thumb/im11161031 ':include :type=iframe width=312px height=176px scrolling=no')
+
+[双葉湊音立ち絵素材](https://ext.seiga.nicovideo.jp/thumb/im11181302 ':include :type=iframe width=312px height=176px scrolling=no')
 
 #### 星界 :id=tachie_sekai
 
