@@ -2116,6 +2116,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.127 :
+  - プリセット機能：「ささやき」のプリセット「Whisper」を追加
+  - 声質の出力をエディタに合わせた（+1.00～-1.00）
 - ver. 0.4.0 alpha.120 :
   - 声質・ハスキー出力対応（CeVIO CS/AIのみ)
   - VoiSonaにccst / tssprj出力選択できる機能追加
