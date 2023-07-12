@@ -2116,6 +2116,8 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.130 :
+  - #16 OSの言語が特定の言語でファイル出力が正しくない場合があったのを修正した
 - ver. 0.4.0 alpha.127 :
   - プリセットTooltip翻訳追加
   - プリセット設定漏れ修正
