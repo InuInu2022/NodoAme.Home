@@ -2116,6 +2116,8 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.134 :
+  - CeVIO AI りむる 対応
 - ver. 0.4.0 alpha.132 :
   - VoiSona MYK-IV対応
   - [#17](https://github.com/InuInu2022/NodoAme.Home/issues/17) VoiSona でSYLLABLE分割のときのCCS書き出しが問題が起きていた問題修正
