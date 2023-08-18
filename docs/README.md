@@ -99,6 +99,7 @@ NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネ�
 CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音源**や、無料の**VOICEVOX**などの対応他ソフトのトーク音源が使えます。
 
 楽譜データの書き出しは次のソング音源に対応しています。
+※一部先行公開版で対応。
 
 - CeVIO AI
   - 可不（KAFU）
@@ -120,6 +121,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 狐子（COKO）
   - Ci flower
   - 奏兎める
+  - りむる
 - VoiSona
   - 知声
   - さとうささら
@@ -127,6 +129,8 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - AiSuu
   - 知声English
   - #kzn
+  - MYK-IV
+  - 双葉湊音
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -2116,6 +2120,8 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 alpha.135 :
+  - VoiSona 双葉湊音 対応
 - ver. 0.4.0 alpha.134 :
   - CeVIO AI りむる 対応
 - ver. 0.4.0 alpha.132 :
