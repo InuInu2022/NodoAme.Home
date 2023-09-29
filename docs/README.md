@@ -67,15 +67,6 @@ bowlrollの誘導先で配布されていたものは正式なNodoAmeじゃあ�
 
 - [過去のバージョン/先行公開版一覧はこちら](https://github.com/InuInu2022/NodoAme.Home/releases)
 
-<details id="next-version" style="margin:1em 0;margin:1.5em;">
-<summary>次期バージョンの予定</summary>
-
-- 音声ファイル＋タイミングファイルからの入力対応
-- セリフごとの設定
-- ボイパ対応…!?
-
-</details>
-
 > [!NOTE]
 > ニコニコ動画などでこのツールを使った動画などを公開する場合は、以下のニコニコモンズをコンテンツツリーに登録して下さい！（義務ではありません）
 >
@@ -94,7 +85,8 @@ NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネ�
 - [CeVIO Creative Studio 7](https://cevio.jp/product/ccs/) トーク
 - [VOICEVOX](https://voicevox.hiroshiba.jp/)
 - [SHAREVOX](https://www.sharevox.app/)
-- 標準音声
+- 標準音声 (Open JTalk)
+- 音声ファイル + labファイル
 
 CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音源**や、無料の**VOICEVOX**などの対応他ソフトのトーク音源が使えます。
 
@@ -131,6 +123,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - #kzn
   - MYK-IV
   - 双葉湊音
+  - すずきつづみ
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -139,7 +132,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> - CeVIO AIの羽累（HARU）
+> - CeVIO AIの羽累（HARU）、ユニちゃん(UNI-chan)
 > も対応予定です。
 
 
@@ -220,7 +213,7 @@ CeVIOで使われる**音素表記**や**発音通りのひらがな**に変換�
 - Windows 10以降
 - 以下のどれかのソングエディター＆ボイス
   - CeVIO AI
-  - VoiSona
+  - VoiSona (ソング)
   - CeVIO CS
 - .NET Framework 4.8
   - ※CeVIOが動く場合はもう入ってます！
@@ -542,7 +535,7 @@ iZotopeのRXとNectar (dialogプリセット)をかけてます。
   - [x] CeVIOトークの感情合成対応
   - [x] [VOICEVOX](https://voicevox.hiroshiba.jp/)のパラメータ対応
   - [ ] [COEIROINK](https://coeiroink.com/)への対応
-  - [ ] [A.I.VOICE](https://aivoice.jp/) への対応
+  - [x] [A.I.VOICE](https://aivoice.jp/) への対応
   - [x] [SHAREVOX](https://www.sharevox.app/) への対応
   - [ ] セリフごとのパラメータに対応
   - [ ] 台本テキストの読み込み
@@ -642,11 +635,14 @@ COEIROINKはもしAPIの一部機能が対応したら、対応します。
     - ※音素表示と視聴は対応済。
   - 利用の際はCOEIROINKを先に起動しておいてください
 
-### 先行公開版
+### 音声ファイルとタイミング情報ファイル(.lab)
 
 v0.4 先行公開版で、音声ファイルとタイミング情報ファイル(.lab)があれば、どんなトークソフトでも演技指導に使えるようになりました。
 
-原理的には生声でもいけます。
+- A.I.Voice
+- VoiSona Talk ( with [VoiSonaTalkLab](https://github.com/InuInu2022/LibSasara/releases/tag/v0.2.1) )
+
+原理的には生声でもいけますし、ソングtoソングもできます。
 wav2labというソフトを使えばタイミング情報ファイルも作れますが、大変です。
 
 ### 対応まとめ
@@ -660,14 +656,15 @@ wav2labというソフトを使えばタイミング情報ファイルも作れ�
   - SHAREVOX
 - 対応予定トークソフト
   - COEIROINK
-- 検討中トークソフト
+- 音声＋labファイルで対応するトークソフト
   - A.I.VOICE
+  - VoiSona Talk
 
 #### それ以外のトークソフト対応について :id=other_talk_soft
 
-- **CoeFont**はAPIが公開されているのですが、利用したい情報がとれないっぽいです。
-- **LMROID**,**ITVOICE**はAPIがあるのですがCOEIROINKとおなじでタイミング情報がとれません。
-- **A.I.VOICE**はAPIが公開されたのですが、そのままではやはり利用したい情報がとれず、再考中です。ただし、labファイル出力に対応したのでやり方を検討中です。
+- **CoeFont**, **VOICEPEAK**はAPIが公開されているのですが、利用したい情報がとれないっぽいです。
+- **LMROID**, **ITVOICE**はAPIがあるのですがCOEIROINKとおなじでタイミング情報がとれません。
+- ~~**A.I.VOICE**はAPIが公開されたのですが、そのままではやはり利用したい情報がとれず、再考中です。ただし、labファイル出力に対応したのでやり方を検討中です。~~
 
 考えてるアイディアがうまく行けば、VOICEROIDや生声音声もうまくいくかもしれません。ただし、精度は落ちるかもです…。
 
@@ -840,6 +837,8 @@ ver.0.3でセリフ秒数表示機能が付きました。
 できません！
 
 CeVIO Creative Studioなら[CevioTalkSync](https://www.nicovideo.jp/watch/sm37419010)というソフトがあります！
+
+ボイパロイドで良ければいぬいぬの作った別のツールの[SasaraUtil](https://github.com/InuInu2022/SasaraUtil#%E3%83%9C%E3%82%A4%E3%83%91%E3%83%AD%E3%82%A4%E3%83%89)にその機能があります。
 
 ### ❔トークtoトークはできますか？ :id=can_convert_talk_to_talk
 
@@ -2120,6 +2119,10 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 beta :
+  - VoiSona すずきつづみ 対応
+  - 保存時にファイルの書き出しフォルダーをひらくオプション追加
+  - beta版
 - ver. 0.4.0 alpha.135 :
   - VoiSona 双葉湊音 対応
 - ver. 0.4.0 alpha.134 :
