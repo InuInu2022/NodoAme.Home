@@ -2119,6 +2119,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.0 beta-2 :
+  - CeVIO AI 羽累　対応
+  - 翻訳更新
 - ver. 0.4.0 beta :
   - VoiSona すずきつづみ 対応
   - 保存時にファイルの書き出しフォルダーをひらくオプション追加
