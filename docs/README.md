@@ -2113,7 +2113,8 @@ SOFTWARE.
 </details>
 
 ## __fa-solid:history__ きろく :id=history
-
+- ver. 0.4.0 beta4 :
+  - VoiSona IA / IA English / ONE 対応
 - ver. 0.4.0 beta3 :
   - VoiSona Pepper 対応
 - ver. 0.4.0 beta-2 :
