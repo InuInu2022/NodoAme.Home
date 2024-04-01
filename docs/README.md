@@ -119,6 +119,15 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 双葉湊音
   - すずきつづみ
   - Pepper
+  - 結月ゆかり麗
+  - IA
+  - IA English
+  - OИE
+  - Ci flower
+  - やまだかのん
+  - かざまつりあさひ
+  - たかむらひびき
+  - こむらさきももか
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -2114,6 +2123,12 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.2:
+  - VoiSona やまだかのん 対応
+  - VoiSona かざまつりあさひ 対応
+  - VoiSona たかむらひびき 対応
+  - VoiSona こむらさきももか 対応
+  - VoiSona 双葉湊音 2.0対応
 - ver. 0.4.1:
   - VoiSona Ci flower 対応
   - VoiSonaの音源は基本2.0.0で出力するように
