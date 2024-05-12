@@ -2123,6 +2123,8 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.3:
+  - こまかな更新
 - ver. 0.4.2:
   - VoiSona やまだかのん 対応
   - VoiSona かざまつりあさひ 対応
