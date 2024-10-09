@@ -2133,6 +2133,12 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.5:
+  - 新規ボイス対応
+    - VoiSona りむる
+    - VoiSona 奏兎める
+  - ボイスバージョンアップ対応
+  - 細かな更新
 - ver. 0.4.4:
   - 新規ボイス対応
     - VoiSona 玉姫
