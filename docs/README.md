@@ -84,7 +84,6 @@ NodoAmeはCeVIOトーク(CS/AI)のボイスにしゃべらせた音声をマネ�
 CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音源**や、無料の**VOICEVOX**などの対応他ソフトのトーク音源が使えます。
 
 楽譜データの書き出しは次のソング音源に対応しています。
-※一部先行公開版で対応。
 
 - CeVIO AI
   - 可不（KAFU）
@@ -137,6 +136,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 東北ずん子
   - 東北イタコ
   - 東北きりたん
+  - vs-m701
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -146,6 +146,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
 
 > [!NOTE]
 > - CeVIO AIのユニちゃん(UNI-chan)ソング、梵そよぎソング、箱庭ハノ、箱庭コト
+> - VoiSona の SELENA、 月音、雨衣
 > も対応予定です。
 
 
@@ -853,6 +854,8 @@ ver.0.3でセリフ秒数表示機能が付きました。
 CeVIO Creative Studioなら[CevioTalkSync](https://www.nicovideo.jp/watch/sm37419010)というソフトがあります！
 
 ボイパロイドで良ければいぬいぬの作った別のツールの[SasaraUtil](https://github.com/InuInu2022/SasaraUtil#%E3%83%9C%E3%82%A4%E3%83%91%E3%83%AD%E3%82%A4%E3%83%89)にその機能があります。
+
+VoiSona Talk（CeVIO AIのトーク音源が一部使える姉妹ソフト）向けであれば「**[KotoKanade](https://note.com/inuinu_/n/n0c79f600b5eb)**」というソフトを作りました！確認してください。
 
 ### ❔トークtoトークはできますか？ :id=can_convert_talk_to_talk
 
