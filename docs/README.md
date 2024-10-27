@@ -2133,6 +2133,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.6:
+  - 新規ボイス対応
+    - VoiSona vs-m701
 - ver. 0.4.5:
   - 新規ボイス対応
     - VoiSona りむる
