@@ -2136,6 +2136,12 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.7:
+  - 新規ボイス対応
+    - CeVIO AI 梵そよぎ
+    - VoiSona 梵そよぎ
+    - VoiSona SELENA
+    - VoiSona Lunon
 - ver. 0.4.6:
   - 新規ボイス対応
     - VoiSona vs-m701
