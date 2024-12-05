@@ -109,6 +109,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 羽累
   - ずんだもん
   - 四国めたん
+  - 梵そよぎ
 - VoiSona
   - 知声
   - さとうささら
@@ -122,7 +123,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - Pepper
   - 結月ゆかり麗
   - IA
-  - IA English
+  - IA English （英語音源）
   - OИE
   - Ci flower
   - やまだかのん
@@ -137,6 +138,9 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - 東北イタコ
   - 東北きりたん
   - vs-m701
+  - SELENA （英語音源）
+  - 梵そよぎ
+  - 月音
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -145,8 +149,8 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> - CeVIO AIのユニちゃん(UNI-chan)ソング、梵そよぎソング、箱庭ハノ、箱庭コト
-> - VoiSona の SELENA、 月音、雨衣
+> - CeVIO AIのユニちゃん(UNI-chan)ソング、箱庭ハノ、箱庭コト
+> - VoiSona の 雨衣
 > も対応予定です。
 
 
@@ -2136,6 +2140,8 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.8:
+  - 不具合修正
 - ver. 0.4.7:
   - 新規ボイス対応
     - CeVIO AI 梵そよぎ
