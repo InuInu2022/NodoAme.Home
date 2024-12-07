@@ -110,6 +110,8 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - ずんだもん
   - 四国めたん
   - 梵そよぎ
+  - 箱庭ハノ
+  - 箱庭コト
 - VoiSona
   - 知声
   - さとうささら
@@ -149,7 +151,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - IA English C (Natural / Powerful)
 
 > [!NOTE]
-> - CeVIO AIのユニちゃん(UNI-chan)ソング、箱庭ハノ、箱庭コト
+> - CeVIO AIの ユニちゃん(UNI-chan)ソング
 > - VoiSona の 雨衣
 > も対応予定です。
 
@@ -2140,6 +2142,10 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.9:
+  - 新規ボイス対応
+    - CeVIO AI 箱庭ハノ
+    - CeVIO AI 箱庭コト
 - ver. 0.4.8:
   - 不具合修正
 - ver. 0.4.7:
