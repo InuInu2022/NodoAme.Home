@@ -2142,6 +2142,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.10:
+  - 新規ボイス対応
+    - VoiSona ジャスパー
 - ver. 0.4.9:
   - 新規ボイス対応
     - CeVIO AI 箱庭ハノ
