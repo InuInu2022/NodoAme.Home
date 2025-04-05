@@ -143,6 +143,8 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
   - SELENA （英語音源）
   - 梵そよぎ
   - 月音
+  - ジャスパー
+  - ルウル
 - CeVIO Creative Studio 7
   - さとうささら
   - ハルオロイド・ミナミ
@@ -152,7 +154,7 @@ CeVIOトーク音源を持っていなくとも、内蔵の**標準トーク音�
 
 > [!NOTE]
 > - CeVIO AIの ユニちゃん(UNI-chan)ソング
-> - VoiSona の 雨衣
+> - VoiSona の 雨衣、瑛璨
 > も対応予定です。
 
 
@@ -2142,6 +2144,9 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.11:
+  - 新規ボイス対応
+    - VoiSona ルウル
 - ver. 0.4.10:
   - 新規ボイス対応
     - VoiSona ジャスパー
