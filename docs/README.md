@@ -2145,6 +2145,8 @@ SOFTWARE.
 
 ## __fa-solid:history__ きろく :id=history
 
+- ver. 0.4.14:
+  - 不具合修正
 - ver. 0.4.13:
   - 新規ボイス対応
     - VoiSona 那由歌
